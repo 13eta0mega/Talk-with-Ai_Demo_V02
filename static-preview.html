@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mint Creature · Semantic SVG</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f4ef;color:#20392e;font:14px/1.55 "Segoe UI","Malgun Gothic",sans-serif}button,select,input{font:inherit}button,select{border:1px solid #cbd4c9;background:#fff;border-radius:7px;padding:8px 12px;color:inherit}button{cursor:pointer}button:hover{border-color:#38634d}button[aria-pressed=true]{background:#284e3b;color:#fff;border-color:#284e3b}a{color:#285c42;text-underline-offset:3px}header{max-width:1480px;margin:auto;padding:30px 36px 20px;display:flex;align-items:end;justify-content:space-between;gap:24px}.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#6e8373}h1{font-size:30px;font-weight:550;letter-spacing:-1px;margin:4px 0}header p{margin:0;color:#718073;font-size:13px}.links{display:flex;gap:18px;white-space:nowrap;font-size:13px}main{max-width:1480px;margin:auto;padding:0 36px 30px}.toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 0 18px}.separator{width:1px;height:24px;background:#ccd5c9;margin:0 7px}label.control{display:flex;align-items:center;gap:8px;color:#647669;font-size:12px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:20px}.panes{display:grid;grid-template-columns:1fr 1fr;gap:16px;min-width:0}.panel{min-width:0;border:1px solid #d4ddd1;background:#fff;border-radius:10px;overflow:hidden}.caption{padding:10px 14px;border-bottom:1px solid #dde3d9;display:flex;justify-content:space-between;font-size:12px}.caption span{color:#78907f;font-size:11px}.viewport{height:calc(100vh - 300px);min-height:420px;overflow:auto;background-color:#fff;background-image:linear-gradient(45deg,#edf0eb 25%,transparent 25%),linear-gradient(-45deg,#edf0eb 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#edf0eb 75%),linear-gradient(-45deg,transparent 75%,#edf0eb 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0}.art{position:relative;width:100%;margin:0 auto;line-height:0}.art>svg,.art>img{width:100%;height:auto;display:block}.overlay-reference{display:none!important;position:absolute;inset:0;z-index:0}.art>svg{position:relative;z-index:1}.panes.overlay,.panes.vector{grid-template-columns:1fr}.panes.overlay #source-panel,.panes.vector #source-panel{display:none}.panes.overlay .overlay-reference{display:block!important}.panes.overlay .art>svg{opacity:var(--mix,.5)}.background-white .viewport{background:#fff}.background-dark .viewport{background:#27312f}.mix-control{display:none!important}.overlay-active .mix-control{display:flex!important}aside{border-top:2px solid #36543f;padding-top:12px}aside h2{font-size:14px;margin:0 0 4px}aside p{color:#758374;font-size:12px;margin:0 0 16px}.partlist{display:grid;gap:3px;max-height:calc(100vh - 425px);min-height:280px;overflow:auto}.partlist label{padding:5px 0;display:flex;align-items:center;gap:8px;font-size:12px;cursor:pointer}.partlist input{accent-color:#3f805d}#restore{margin-top:12px;font-size:12px;width:100%}.meta{border-top:1px solid #d5ded2;margin-top:18px;padding-top:12px;font-size:11px;color:#758374}.downloads{padding-top:15px;display:flex;gap:14px;flex-wrap:wrap;font-size:12px}.footnote{color:#7c887d;font-size:11px;margin-top:10px}input[type=range]{accent-color:#407254;width:110px}button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #8eba99;outline-offset:2px}@media(max-width:900px){header{padding:22px 18px 15px;display:block}.links{margin-top:12px}main{padding:0 18px 20px}.layout{grid-template-columns:1fr}aside{display:none}.viewport{min-height:340px;height:62vh}.panes{gap:8px}.caption{padding:9px;font-size:11px}.caption span{display:none}h1{font-size:25px}.separator{margin:0 2px}}
+</style></head><body>
+<header><div><div class="eyebrow">Character study / 01</div><h1>민트 공룡 후드</h1><p>원본 인상을 보존한 편집 가능한 정적 SVG</p></div><nav class="links"><a href="character.master.svg" download>SVG 다운로드 ↗</a><a href="QA.md">QA 보고서</a><a href="parts.json">파트 목록</a></nav></header>
+<main><div class="toolbar"><button data-mode="pair" aria-pressed="true">나란히</button><button data-mode="overlay" aria-pressed="false">겹쳐 보기</button><button data-mode="vector" aria-pressed="false">SVG만</button><span class="separator"></span><label class="control">배율 <select id="zoom"><option value="fit">화면 맞춤</option><option value="1">100%</option><option value="2">200%</option><option value="4">400%</option></select></label><label class="control">배경 <select id="background"><option value="checker">투명 격자</option><option value="white">흰색</option><option value="dark">어두움</option></select></label><label class="control mix-control">SVG 농도 <input id="mix" type="range" min="0" max="100" value="50"><output id="mix-value">50%</output></label></div>
+<div class="layout"><section class="panes" id="panes" aria-label="원본과 SVG 비교"><article class="panel" id="source-panel"><div class="caption">원본 PNG <span>1086 × 1448</span></div><div class="viewport" id="source-viewport"><div class="art"><img src="qa/reference.original.png" alt="원본 PNG 캐릭터"></div></div></article><article class="panel"><div class="caption">Semantic SVG <span>55 groups · 133 paths</span></div><div class="viewport" id="vector-viewport"><div class="art"><img class="overlay-reference" src="qa/reference.original.png" alt="비교용 원본"><svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1086" height="1448" viewBox="0 0 1086 1448" version="1.1" role="img" aria-labelledby="art-title art-desc">
+  <title id="art-title">민트 공룡 후드 캐릭터 — semantic vector master</title>
+  <desc id="art-desc">PNG reference reconstructed with editable cubic Bézier paths. Static, transparent, pure vector. Left and right refer to the viewer. No rig, animation, bitmap or external resource.</desc>
+  <defs>
+    <linearGradient id="mint" x1="0%" y1="10%" x2="100%" y2="85%">
+      <stop offset="0%" stop-color="#a9ebcd" />
+      <stop offset="54%" stop-color="#a4e5c2" />
+      <stop offset="100%" stop-color="#afeace" />
+    </linearGradient>
+    <linearGradient id="mint-shade" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#96d7b6" />
+      <stop offset="100%" stop-color="#b0eacc" />
+    </linearGradient>
+    <linearGradient id="hood-lining">
+      <stop offset="0%" stop-color="#71b397" />
+      <stop offset="50%" stop-color="#8bcda9" />
+      <stop offset="100%" stop-color="#6bad93" />
+    </linearGradient>
+    <linearGradient id="hair-cream" x1="0%" y1="0%" x2="65%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e3" />
+      <stop offset="55%" stop-color="#fff1df" />
+      <stop offset="100%" stop-color="#fcf3e7" />
+    </linearGradient>
+    <linearGradient id="hair-line" x1="0" y1="264" x2="0" y2="790" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d9d3c1" />
+      <stop offset="48%" stop-color="#898e80" />
+      <stop offset="100%" stop-color="#626e61" />
+    </linearGradient>
+    <radialGradient id="skin" cx="47%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ffeddf" />
+      <stop offset="73%" stop-color="#ffebdc" />
+      <stop offset="100%" stop-color="#fbe6d7" />
+    </radialGradient>
+    <linearGradient id="white-cloth" x1="20%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#fefefe" />
+      <stop offset="100%" stop-color="#f6f8f7" />
+    </linearGradient>
+    <linearGradient id="spike-yellow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff3b7" />
+      <stop offset="100%" stop-color="#ffeca0" />
+    </linearGradient>
+    <linearGradient id="iris-teal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#254842" />
+      <stop offset="50%" stop-color="#24564e" />
+      <stop offset="100%" stop-color="#479b8e" />
+    </linearGradient>
+    <linearGradient id="strap-gray">
+      <stop offset="0%" stop-color="#292629" />
+      <stop offset="55%" stop-color="#363236" />
+      <stop offset="100%" stop-color="#4a4446" />
+    </linearGradient>
+    <clipPath id="eye-left-clip" clipPathUnits="userSpaceOnUse">
+      <path id="eye-left-clip-path" d="M416 564 C447 564 466 589 466 620 C467 654 449 675 419 675 C388 678 367 653 367 621 C366 590 386 565 416 564 Z" fill="none" />
+    </clipPath>
+    <clipPath id="eye-right-clip" clipPathUnits="userSpaceOnUse">
+      <path id="eye-right-clip-path" d="M651 564 C682 564 701 590 701 621 C701 654 683 675 653 675 C623 677 601 653 602 621 C602 590 621 565 651 564 Z" fill="none" />
+    </clipPath>
+  </defs>
+  <g id="character" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" inkscape:label="Character · 정적 마스터">
+    <g id="tail-back" inkscape:label="꼬리">
+      <g id="tail-spikes" inkscape:label="꼬리 가시">
+        <path id="tail-spike-upper" d="M787 1101 C812 1098 849 1081 864 1097 C876 1111 866 1149 861 1172 Z" fill="url(#spike-yellow)" />
+        <path id="tail-spike-lower" d="M854 1174 C875 1163 905 1145 915 1155 C925 1163 923 1195 922 1210 Z" fill="url(#spike-yellow)" />
+      </g>
+      <path id="tail-base" d="M669 1026 C721 1024 763 1050 791 1091 C818 1138 854 1187 925 1209 C961 1219 944 1234 912 1246 C839 1276 745 1252 671 1214 C650 1166 649 1085 669 1026 Z" fill="url(#mint)" />
+    </g>
+    <g id="head" inkscape:label="머리">
+      <g id="hood-back" inkscape:label="공룡 후드 · 후면">
+        <g id="hood-spikes" inkscape:label="후드 가시">
+          <path id="hood-spike-top" d="M456 117 C476 77 505 32 535 18 C557 4 590 40 625 113 Z" fill="url(#spike-yellow)" stroke-width="8" />
+          <path id="hood-spike-upper-right" d="M651 125 C679 111 720 96 737 105 C751 114 754 156 754 195 Z" fill="url(#spike-yellow)" stroke-width="8" />
+          <path id="hood-spike-right-1" d="M767 209 C802 205 856 199 870 215 C883 233 864 284 848 318 Z" fill="url(#spike-yellow)" stroke-width="8" />
+          <path id="hood-spike-right-2" d="M847 332 C877 331 947 348 963 371 C976 388 940 442 916 473 Z" fill="url(#spike-yellow)" stroke-width="8" />
+          <path id="hood-spike-right-3" d="M919 506 C953 519 993 536 1000 558 C1006 578 980 613 959 631 Z" fill="url(#spike-yellow)" stroke-width="8" />
+          <path id="hood-ear-left" d="M207 371 C193 337 183 284 187 246 C190 209 250 198 320 202 Z" fill="url(#spike-yellow)" stroke-width="8" />
+          <path id="hood-spike-left" d="M207 373 C173 385 118 404 107 426 C101 446 123 488 143 510 Z" fill="url(#spike-yellow)" stroke-width="8" />
+        </g>
+        <path id="hood-shell" d="M160 729 C113 706 96 667 106 608 C118 548 161 455 199 383 C245 297 289 236 337 190 C396 135 462 101 528 99 C603 92 667 120 724 162 C807 223 852 305 891 388 C919 450 941 520 958 598 C975 658 958 701 899 733 C863 757 807 778 753 785 L278 787 C221 775 188 752 160 729 Z" fill="url(#mint)" stroke-width="8" />
+        <path id="hood-inner-lining" d="M158 601 C201 500 271 386 357 311 C419 257 484 232 544 239 C627 234 702 281 767 358 C832 435 886 538 910 601 C926 644 905 694 868 719 C790 769 669 794 533 797 C393 795 272 776 194 720 C158 694 148 651 158 601 Z" fill="url(#hood-lining)" stroke="#39735c" stroke-width="5" />
+        <g id="hood-face-mark" stroke="none" inkscape:label="후드 공룡 얼굴">
+          <ellipse id="hood-eye-left" cx="421.5" cy="200" rx="20" ry="27" fill="#080c09" transform="rotate(30 421.5 200)" />
+          <ellipse id="hood-eye-right" cx="661.5" cy="200" rx="20" ry="27" fill="#080c09" transform="rotate(-31 661.5 200)" />
+          <path id="hood-smile" d="M500 195 C511 214 528 208 541 196 C556 211 574 211 582 195" fill="none" stroke="#070c08" stroke-width="8" />
+        </g>
+      </g>
+      <g id="back-hair" inkscape:label="뒷머리 · 민트색 끝단">
+        <path id="back-hair-left" d="M216 594 C220 647 209 685 188 720 C176 738 158 753 140 762 C154 780 177 788 199 782 C176 798 196 806 214 798 C233 792 246 777 251 760 C250 800 248 824 223 835 C242 847 265 844 277 829 C276 846 268 857 257 863 C279 884 305 875 329 861 C346 866 370 837 380 801 C358 748 309 676 286 612 Z" fill="url(#mint)" stroke-width="7" />
+        <path id="back-hair-right" d="M803 596 C829 632 846 676 876 717 C891 738 905 754 923 760 C912 778 891 785 870 781 C890 796 875 805 855 797 C839 791 825 779 817 762 C817 800 821 821 843 834 C824 846 799 842 789 828 C789 843 797 856 806 863 C784 882 758 876 739 861 C718 864 698 839 687 801 C710 736 757 654 803 596 Z" fill="url(#mint)" stroke-width="7" />
+      </g>
+    </g>
+    <g id="body" inkscape:label="몸과 의복">
+      <g id="legs" inkscape:label="다리">
+        <g id="leg-left" inkscape:label="다리 · left">
+          <path id="leg-left-skin" d="M379 1140 C421 1144 471 1142 513 1139 L508 1208 C506 1231 505 1251 507 1276 L374 1287 C384 1255 389 1229 384 1201 Z" fill="url(#skin)" stroke-width="7" />
+          <path id="sock-left-base" d="M383 1179 C425 1190 469 1190 510 1178 L506 1216 L507 1276 L376 1287 C385 1252 390 1227 383 1179 Z" fill="url(#white-cloth)" stroke-width="6" />
+          <path id="sock-left-band" d="M385 1184 C424 1195 471 1195 509 1183 L508 1207 C465 1220 423 1220 386 1211 Z" fill="url(#mint)" stroke="none" />
+        </g>
+        <g id="leg-right" inkscape:label="다리 · right">
+          <path id="leg-right-skin" d="M542 1139 C581 1142 632 1143 674 1136 L673 1202 C670 1227 674 1250 682 1285 L550 1280 C553 1243 546 1211 542 1139 Z" fill="url(#skin)" stroke-width="7" />
+          <path id="sock-right-base" d="M545 1179 C586 1190 632 1190 673 1178 C669 1216 672 1254 682 1285 L550 1280 C553 1245 548 1212 545 1179 Z" fill="url(#white-cloth)" stroke-width="6" />
+          <path id="sock-right-band" d="M547 1184 C586 1195 631 1195 672 1183 L671 1209 C630 1220 586 1219 549 1209 Z" fill="url(#mint)" stroke="none" />
+        </g>
+        <g id="sock-left-cross" transform="translate(446 1205) scale(1)" inkscape:label="sock-left-cross">
+          <path id="sock-left-cross-shape" d="M0 -18 C9 -28 18 -27 23 -19 C28 -11 21 -5 15 0 C27 9 28 18 21 24 C13 30 6 23 0 18 C-8 27 -17 29 -24 22 C-30 14 -23 5 -17 0 C-27 -7 -28 -17 -20 -23 C-12 -30 -5 -23 0 -18 Z" fill="url(#mint)" stroke="#080d09" stroke-width="6" />
+        </g>
+        <g id="sock-right-cross" transform="translate(609 1205) scale(1)" inkscape:label="sock-right-cross">
+          <path id="sock-right-cross-shape" d="M0 -18 C9 -28 18 -27 23 -19 C28 -11 21 -5 15 0 C27 9 28 18 21 24 C13 30 6 23 0 18 C-8 27 -17 29 -24 22 C-30 14 -23 5 -17 0 C-27 -7 -28 -17 -20 -23 C-12 -30 -5 -23 0 -18 Z" fill="url(#mint)" stroke="#080d09" stroke-width="6" />
+        </g>
+      </g>
+      <g id="feet" inkscape:label="신발">
+        <g id="foot-left" inkscape:label="신발 · left">
+          <path id="foot-left-shell" d="M374 1275 C410 1246 462 1241 505 1265 C516 1283 521 1315 522 1353 C524 1379 522 1397 510 1407 C483 1425 399 1424 371 1408 C357 1400 355 1380 356 1357 C355 1327 362 1294 374 1275 Z" fill="url(#white-cloth)" stroke-width="8" stroke="none" />
+          <path id="foot-left-mint-top" d="M374 1275 C410 1246 462 1241 505 1265 C511 1284 513 1302 516 1321 C506 1306 495 1302 487 1292 C461 1255 406 1265 389 1300 C377 1306 366 1316 361 1325 C364 1307 366 1294 373 1278 Z" fill="url(#mint)" stroke="none" />
+          <path id="foot-left-sole-trim" d="M358 1364 C367 1385 400 1394 438 1395 C476 1395 505 1388 521 1371" fill="none" stroke="#6db18e" stroke-width="6" />
+          <g id="foot-left-paw" transform="translate(442 1310) scale(0.98)" stroke="#4a9b74" stroke-width="5.5" inkscape:label="foot-left-paw">
+            <path id="foot-left-paw-toe-left" d="M-18 -5 C-30 -11 -35 -23 -28 -29 C-19 -36 -7 -23 -8 -13 Z" fill="url(#mint)" />
+            <path id="foot-left-paw-toe-top" d="M-10 -12 C-17 -30 -10 -42 0 -42 C12 -42 18 -29 10 -12 Z" fill="url(#mint)" />
+            <path id="foot-left-paw-toe-right" d="M9 -13 C10 -27 23 -33 30 -26 C38 -17 25 -6 18 -4 Z" fill="url(#mint)" />
+            <path id="foot-left-paw-pad" d="M-22 -8 C-14 -28 11 -27 21 -9 C34 11 26 29 9 29 C4 30 1 28 -1 27 C-8 31 -19 29 -25 22 C-31 14 -28 0 -22 -8 Z" fill="url(#mint)" />
+          </g>
+          <path id="foot-left-toe" d="M384 1412 C378 1388 395 1356 421 1349 C455 1338 484 1360 495 1386 C498 1395 500 1405 497 1413 C463 1421 416 1420 384 1412 Z" fill="url(#white-cloth)" stroke-width="5.5" />
+          <path id="foot-left-outer-outline" d="M374 1275 C410 1246 462 1241 505 1265 C516 1283 521 1315 522 1353 C524 1379 522 1397 510 1407 C483 1425 399 1424 371 1408 C357 1400 355 1380 356 1357 C355 1327 362 1294 374 1275 Z" fill="none" stroke="#090c09" stroke-width="8" />
+        </g>
+        <g id="foot-right" inkscape:label="신발 · right">
+          <path id="foot-right-shell" d="M549 1275 C585 1246 636 1241 678 1265 C691 1286 697 1317 699 1352 C701 1378 700 1396 688 1407 C661 1425 577 1424 549 1408 C535 1400 533 1381 534 1357 C534 1325 539 1295 549 1275 Z" fill="url(#white-cloth)" stroke-width="8" stroke="none" />
+          <path id="foot-right-mint-top" d="M549 1275 C585 1246 636 1241 678 1265 C685 1284 688 1305 691 1320 C680 1308 670 1303 660 1292 C634 1255 581 1265 566 1300 C552 1308 543 1315 538 1324 C540 1308 543 1293 548 1278 Z" fill="url(#mint)" stroke="none" />
+          <path id="foot-right-sole-trim" d="M535 1364 C543 1385 577 1394 615 1395 C651 1395 685 1388 699 1370" fill="none" stroke="#6db18e" stroke-width="6" />
+          <g id="foot-right-paw" transform="translate(613 1310) scale(0.98)" stroke="#4a9b74" stroke-width="5.5" inkscape:label="foot-right-paw">
+            <path id="foot-right-paw-toe-left" d="M-18 -5 C-30 -11 -35 -23 -28 -29 C-19 -36 -7 -23 -8 -13 Z" fill="url(#mint)" />
+            <path id="foot-right-paw-toe-top" d="M-10 -12 C-17 -30 -10 -42 0 -42 C12 -42 18 -29 10 -12 Z" fill="url(#mint)" />
+            <path id="foot-right-paw-toe-right" d="M9 -13 C10 -27 23 -33 30 -26 C38 -17 25 -6 18 -4 Z" fill="url(#mint)" />
+            <path id="foot-right-paw-pad" d="M-22 -8 C-14 -28 11 -27 21 -9 C34 11 26 29 9 29 C4 30 1 28 -1 27 C-8 31 -19 29 -25 22 C-31 14 -28 0 -22 -8 Z" fill="url(#mint)" />
+          </g>
+          <path id="foot-right-toe" d="M559 1412 C553 1388 570 1356 596 1349 C630 1338 659 1360 671 1386 C674 1395 676 1405 673 1413 C638 1421 591 1420 559 1412 Z" fill="url(#white-cloth)" stroke-width="5.5" />
+          <path id="foot-right-outer-outline" d="M549 1275 C585 1246 636 1241 678 1265 C691 1286 697 1317 699 1352 C701 1378 700 1396 688 1407 C661 1425 577 1424 549 1408 C535 1400 533 1381 534 1357 C534 1325 539 1295 549 1275 Z" fill="none" stroke="#090c09" stroke-width="8" />
+        </g>
+      </g>
+      <g id="shorts" inkscape:label="반바지">
+        <path id="shorts-left" d="M354 1111 L520 1113 L519 1153 C495 1170 407 1175 357 1156 C350 1152 353 1131 354 1111 Z" fill="url(#white-cloth)" stroke-width="7" />
+        <path id="shorts-right" d="M536 1113 L706 1110 L704 1152 C677 1171 588 1175 543 1156 C538 1154 539 1136 536 1113 Z" fill="url(#white-cloth)" stroke-width="7" />
+      </g>
+      <g id="neck" inkscape:label="목">
+        <path id="neck-skin" d="M500 737 L567 737 L568 775 C584 785 603 785 615 797 C573 832 493 830 454 800 C466 787 487 786 499 777 Z" fill="url(#skin)" stroke-width="7" />
+        <path id="neck-shadow" d="M503 745 L564 745 L564 777 C545 781 522 779 503 775 Z" fill="#fac9b3" stroke="none" />
+      </g>
+      <g id="torso" inkscape:label="상의 몸판">
+        <path id="torso-base" d="M402 809 C452 797 482 808 531 808 C577 808 617 797 665 810 C691 853 709 914 711 976 C711 1027 721 1080 707 1120 C660 1141 596 1132 536 1133 C481 1133 461 1123 419 1130 C388 1134 355 1137 339 1122 C323 1106 327 1081 334 1058 C352 995 359 894 402 809 Z" fill="url(#white-cloth)" stroke-width="7" />
+        <path id="torso-hem" d="M331 1082 C365 1102 400 1107 445 1099 C489 1089 518 1081 563 1089 C614 1099 659 1099 712 1083 L708 1121 C656 1141 594 1131 536 1134 C479 1133 462 1124 420 1131 C379 1136 337 1139 331 1112 C328 1100 329 1092 331 1082 Z" fill="url(#mint)" stroke="#538b6f" stroke-width="5.5" />
+        <path id="torso-fold-left" d="M456 1068 C462 1077 469 1087 480 1091 C465 1093 452 1082 456 1068 Z" fill="#b0e0cc" stroke="none" />
+        <g id="torso-paw" transform="translate(393 1056) scale(1.02)" stroke="#4a9b74" stroke-width="5.5" inkscape:label="torso-paw">
+          <path id="torso-paw-toe-left" d="M-18 -5 C-30 -11 -35 -23 -28 -29 C-19 -36 -7 -23 -8 -13 Z" fill="url(#mint)" />
+          <path id="torso-paw-toe-top" d="M-10 -12 C-17 -30 -10 -42 0 -42 C12 -42 18 -29 10 -12 Z" fill="url(#mint)" />
+          <path id="torso-paw-toe-right" d="M9 -13 C10 -27 23 -33 30 -26 C38 -17 25 -6 18 -4 Z" fill="url(#mint)" />
+          <path id="torso-paw-pad" d="M-22 -8 C-14 -28 11 -27 21 -9 C34 11 26 29 9 29 C4 30 1 28 -1 27 C-8 31 -19 29 -25 22 C-31 14 -28 0 -22 -8 Z" fill="url(#mint)" />
+        </g>
+      </g>
+      <g id="arm-left" inkscape:label="팔 · left">
+        <g id="hand-left" inkscape:label="손 · left">
+          <path id="hand-left-skin" d="M222 1015 C209 1027 180 1030 178 1047 C176 1064 201 1073 225 1058 C213 1074 225 1085 239 1081 C253 1077 268 1066 276 1055 Z" fill="url(#skin)" stroke-width="7" />
+        </g>
+        <g id="sleeve-left" inkscape:label="소매 · left">
+          <path id="sleeve-left-base" d="M402 810 C361 842 305 888 261 925 C237 945 224 959 228 981 L269 1058 C291 1064 314 1066 335 1051 C363 991 385 910 413 852 Z" fill="url(#white-cloth)" stroke-width="7" />
+          <path id="sleeve-left-fold" d="M346 867 C366 879 379 900 384 928 L377 948 C374 914 363 887 346 867 Z" fill="#b2decc" stroke="none" />
+          <g id="sleeve-left-paw" transform="translate(279 967) scale(0.75)" stroke="#4a9b74" stroke-width="5.5" inkscape:label="sleeve-left-paw">
+            <path id="sleeve-left-paw-shape" d="M-6 -24 C-6 -40 8 -43 15 -33 C20 -26 17 -23 18 -21 C29 -27 38 -20 36 -11 C34 -3 25 0 20 -1 C28 12 17 30 2 31 C-18 33 -31 20 -31 3 C-31 -14 -20 -28 -6 -24 Z" fill="url(#mint)" />
+          </g>
+          <path id="cuff-left" d="M228 983 C242 988 285 1029 301 1057 C306 1067 292 1079 282 1076 C270 1074 234 1038 216 1018 C202 1005 220 990 228 983 Z" fill="url(#mint)" stroke-width="7" />
+        </g>
+      </g>
+      <g id="arm-right" inkscape:label="팔 · right">
+        <g id="hand-right" inkscape:label="손 · right">
+          <path id="hand-right-skin" d="M851 1015 C864 1024 895 1032 898 1047 C900 1066 875 1073 848 1058 C862 1075 849 1086 836 1081 C821 1077 807 1066 799 1055 Z" fill="url(#skin)" stroke-width="7" />
+        </g>
+        <g id="sleeve-right" inkscape:label="소매 · right">
+          <path id="sleeve-right-base" d="M666 810 C709 843 764 890 807 925 C832 945 848 960 841 982 L802 1060 C780 1067 757 1067 737 1052 C710 991 688 910 655 853 Z" fill="url(#white-cloth)" stroke-width="7" />
+          <path id="sleeve-right-fold-outer" d="M718 867 C698 879 687 901 684 928 L691 948 C693 914 703 887 718 867 Z" fill="#b2decc" stroke="none" />
+          <path id="sleeve-right-fold-inner" d="M647 841 C659 858 666 883 668 906 C657 889 653 862 647 841 Z" fill="#a9d5c0" stroke="none" />
+          <g id="sleeve-right-paw" transform="translate(792 967) scale(0.75)" stroke="#4a9b74" stroke-width="5.5" inkscape:label="sleeve-right-paw">
+            <path id="sleeve-right-paw-shape" d="M-6 -24 C-6 -40 8 -43 15 -33 C20 -26 17 -23 18 -21 C29 -27 38 -20 36 -11 C34 -3 25 0 20 -1 C28 12 17 30 2 31 C-18 33 -31 20 -31 3 C-31 -14 -20 -28 -6 -24 Z" fill="url(#mint)" />
+          </g>
+          <path id="cuff-right" d="M840 983 C824 990 785 1029 770 1057 C766 1068 779 1080 789 1076 C801 1075 838 1038 855 1018 C869 1005 850 990 840 983 Z" fill="url(#mint)" stroke-width="7" />
+        </g>
+      </g>
+      <g id="hood-collar" inkscape:label="후드 목둘레">
+        <path id="collar-left" d="M348 853 C328 839 336 814 349 797 C370 773 400 755 429 764 C477 776 514 814 531 850 C548 814 585 777 630 765 C657 758 690 776 710 799 C725 816 735 839 716 853 L665 810 C638 848 588 865 533 878 C477 868 431 847 403 811 Z" fill="url(#mint)" stroke-width="7" />
+        <path id="collar-bottom-shade" d="M403 811 C429 846 477 866 531 877 C588 866 638 847 665 810" fill="none" stroke="#569a78" stroke-width="5" />
+        <path id="collar-left-crease" d="M405 811 C413 802 426 798 435 800 C423 801 414 808 411 817 Z" fill="#79bb98" stroke="none" />
+        <path id="collar-right-crease" d="M653 812 C644 804 632 799 622 800 C638 796 651 800 661 805 Z" fill="#79bb98" stroke="none" />
+      </g>
+      <g id="hood-drawstrings" inkscape:label="후드 끈">
+        <path id="drawstring-left-tip" d="M452 999 L469 1000 L467 1038 L452 1039 Z" fill="url(#spike-yellow)" stroke-width="5.5" />
+        <path id="drawstring-left" d="M478 839 C480 826 496 828 494 840 L472 1012 L449 1011 Z" fill="url(#mint)" stroke="#263c2d" stroke-width="6" />
+        <path id="drawstring-right" d="M568 840 C566 827 583 827 586 838 L600 978 L579 981 Z" fill="url(#mint)" stroke="#263c2d" stroke-width="6" />
+      </g>
+    </g>
+    <g id="face" inkscape:label="얼굴">
+      <path id="face-base" d="M533 263 C644 266 720 342 751 450 C771 515 776 624 741 687 C714 736 631 755 534 755 C437 755 351 737 326 689 C288 619 302 516 326 446 C360 343 426 264 533 263 Z" fill="url(#skin)" stroke-width="7" />
+      <g id="brows" inkscape:label="눈썹">
+        <path id="brow-left" d="M396 462 C410 457 428 460 435 465 C444 473 414 478 395 478 Z" fill="#93cbae" stroke="#547863" stroke-width="4" />
+        <path id="brow-right" d="M663 462 C650 457 631 460 626 465 C617 473 645 478 667 478 Z" fill="#93cbae" stroke="#547863" stroke-width="4" />
+      </g>
+      <g id="cheeks" stroke="#0a0d09" stroke-width="7" inkscape:label="뺨 · 점 표시">
+        <path id="cheek-left-dot-outer" d="M370 674 L368 675" fill="none" />
+        <path id="cheek-left-dot-inner" d="M384 679 L382 681" fill="none" />
+        <path id="cheek-right-dot-inner" d="M684 679 L686 681" fill="none" />
+        <path id="cheek-right-dot-outer" d="M698 674 L700 675" fill="none" />
+      </g>
+      <g id="mouth" inkscape:label="입">
+        <path id="mouth-neutral" d="M508 678 C513 690 525 688 535 679 C545 688 557 690 561 678" fill="none" stroke="#090d09" stroke-width="6" />
+      </g>
+      <circle id="nose-highlight" cx="533" cy="644" r="2" fill="#fff9ef" stroke="none" />
+    </g>
+    <g id="front-hair" stroke="url(#hair-line)" stroke-width="5" inkscape:label="앞머리">
+      <path id="hair-crown" d="M137 619 C180 602 196 538 235 474 C291 381 358 310 423 272 C469 245 513 237 546 240 C624 239 699 287 752 344 C824 420 850 491 879 568 C892 598 907 614 928 619 C913 633 896 633 875 626 C888 680 880 725 840 740 C854 712 850 681 835 654 C827 716 803 763 751 779 C724 793 699 794 676 786 C704 766 717 735 725 700 C746 667 750 623 750 558 C697 526 658 464 623 386 C596 294 489 272 442 382 C408 464 372 524 317 559 C311 615 315 661 340 700 C349 737 366 770 389 786 C365 796 332 792 307 778 C256 762 233 716 231 654 C213 684 212 714 229 740 C190 728 177 686 190 635 C170 641 151 633 137 619 Z" fill="url(#hair-cream)" stroke="none" />
+      <g id="hair-side-left" inkscape:label="옆머리 · left">
+        <path id="hair-side-left-shape" d="M398 319 C359 365 328 455 319 516 C312 578 316 658 368 702 C336 715 306 686 291 647 C298 690 324 708 339 704 C345 739 365 771 389 786 C342 807 282 773 256 727 C237 698 233 668 236 630 C224 666 211 709 229 740 C187 727 176 684 189 635 C177 640 150 632 137 619 C171 611 188 584 211 544 C243 486 280 423 322 378 C349 348 378 326 398 319 Z" fill="url(#hair-cream)" stroke="none" />
+        <path id="hair-left-top-strand" d="M398 319 C357 369 327 458 321 535 L316 560 C311 482 351 371 398 319 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-left-temple-strand" d="M220 561 C205 589 192 617 186 637 L195 637 C200 611 210 581 220 561 Z" fill="#b4b5a4" stroke="none" />
+        <path id="hair-left-lower-strand" d="M291 647 C300 675 318 697 344 701 C354 703 361 703 368 702 C338 713 309 697 295 669 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-left-tip-strand" d="M285 749 C298 768 314 781 330 785 C317 777 313 766 311 753 C312 767 312 772 315 776 C301 769 293 760 285 749 Z" fill="#afb09f" stroke="none" />
+        <path id="hair-left-lock-contour" d="M319 516 C312 578 316 658 368 702 C359 707 348 708 339 704 C345 739 365 771 389 786 C342 807 282 773 256 727 C237 698 233 668 236 630 C224 666 211 709 229 740 C187 727 176 684 189 635 C177 640 150 632 137 619 C171 611 188 584 211 544" fill="none" stroke="url(#hair-line)" stroke-width="4.5" />
+        <path id="hair-left-swept-edge" d="M442 382 C408 464 372 524 317 559" fill="none" stroke="url(#hair-line)" stroke-width="5" />
+      </g>
+      <g id="hair-side-right" inkscape:label="옆머리 · right">
+        <path id="hair-side-right-shape" d="M668 319 C712 365 740 455 748 516 C756 578 748 658 697 702 C728 715 759 686 775 647 C767 690 741 708 725 704 C719 739 700 771 676 786 C723 807 783 773 810 727 C829 698 834 668 831 630 C843 666 856 709 840 740 C882 727 891 684 878 626 C894 633 914 630 928 619 C893 611 878 584 855 544 C823 486 786 423 744 378 C715 348 689 326 668 319 Z" fill="url(#hair-cream)" stroke="none" />
+        <path id="hair-right-top-strand" d="M668 319 C710 369 740 458 747 535 L752 560 C757 482 716 371 668 319 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-right-temple-strand" d="M849 551 C866 585 874 609 882 627 L874 627 C866 601 858 573 849 551 Z" fill="#b4b5a4" stroke="none" />
+        <path id="hair-right-lower-strand" d="M775 647 C765 675 747 697 722 701 C711 703 704 703 697 702 C727 713 757 697 770 669 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-right-tip-strand" d="M780 746 C769 768 752 780 735 785 C748 777 751 766 755 753 C753 767 753 772 750 776 C765 769 773 757 780 746 Z" fill="#afb09f" stroke="none" />
+        <path id="hair-right-lock-contour" d="M748 516 C756 578 748 658 697 702 C707 707 717 708 725 704 C719 739 700 771 676 786 C723 807 783 773 810 727 C829 698 834 668 831 630 C843 666 856 709 840 740 C882 727 891 684 878 626 C894 633 914 630 928 619 C893 611 878 584 855 544" fill="none" stroke="url(#hair-line)" stroke-width="4.5" />
+        <path id="hair-right-swept-edge" d="M623 386 C658 464 697 526 750 558" fill="none" stroke="url(#hair-line)" stroke-width="5" />
+      </g>
+      <g id="eyes" inkscape:label="눈">
+        <g id="eye-left" inkscape:label="눈 · left">
+          <path id="eye-left-lashes" d="M303 585 C322 583 337 578 351 567 L351 537 C362 545 367 544 382 541 C409 536 435 538 450 550 L437 550 C452 556 461 569 467 585 C451 572 442 570 430 570 C396 565 363 596 340 646 C324 637 313 611 303 585 Z" fill="#080b09" stroke="none" stroke-width="6" />
+          <path id="eye-left-white" d="M339 627 C329 601 345 577 370 567 C398 555 433 565 451 586 C469 607 469 643 450 662 C431 681 395 680 370 670 C352 660 344 647 339 627 Z" fill="url(#white-cloth)" stroke="none" />
+          <g id="eye-left-iris" clip-path="url(#eye-left-clip)" stroke="none" inkscape:label="눈동자 · left">
+            <path id="eye-left-iris-base" d="M416 564 C447 564 466 589 466 620 C467 654 449 675 419 675 C388 678 367 653 367 621 C366 590 386 565 416 564 Z" fill="url(#iris-teal)" />
+            <path id="eye-left-iris-bottom" d="M397 620 C385 626 376 640 377 652 C385 670 398 676 419 676 C439 676 454 666 460 651 C456 636 447 627 438 621 C425 634 410 634 397 620 Z" fill="#4ca99e" />
+            <ellipse id="eye-left-iris-glow" cx="420" cy="657" rx="27" ry="24" fill="#66bfb1" />
+            <ellipse id="eye-left-pupil" cx="420" cy="616" rx="21" ry="26" fill="#204d46" />
+            <circle id="eye-left-highlight" cx="430.5" cy="589.5" r="12" fill="#fcffff" />
+            <circle id="eye-left-highlight-small" cx="417.8" cy="603" r="2" fill="#dcebe3" />
+          </g>
+          <path id="eye-left-iris-outline" d="M416 564 C447 564 466 589 466 620 C467 654 449 675 419 675 C388 678 367 653 367 621 C366 590 386 565 416 564 Z" fill="none" stroke="#090d09" stroke-width="4" />
+        </g>
+        <g id="eye-right" inkscape:label="눈 · right">
+          <path id="eye-right-lashes" d="M765 585 C747 583 731 578 717 567 L717 537 C705 545 700 544 686 541 C659 536 633 538 618 552 L632 549 C617 557 608 570 602 585 C618 572 628 570 640 570 C674 565 706 596 729 646 C745 637 755 611 765 585 Z" fill="#080b09" stroke="none" stroke-width="6" />
+          <path id="eye-right-white" d="M729 627 C739 601 723 577 698 567 C670 555 636 565 618 586 C600 607 600 643 619 662 C638 681 674 680 699 670 C717 660 724 647 729 627 Z" fill="url(#white-cloth)" stroke="none" />
+          <g id="eye-right-iris" clip-path="url(#eye-right-clip)" stroke="none" inkscape:label="눈동자 · right">
+            <path id="eye-right-iris-base" d="M651 564 C682 564 701 590 701 621 C701 654 683 675 653 675 C623 677 601 653 602 621 C602 590 621 565 651 564 Z" fill="url(#iris-teal)" />
+            <path id="eye-right-iris-bottom" d="M630 620 C618 627 611 640 611 652 C619 670 632 676 653 676 C673 676 688 666 694 651 C690 636 681 627 671 621 C658 634 643 634 630 620 Z" fill="#4ca99e" />
+            <ellipse id="eye-right-iris-glow" cx="653" cy="657" rx="27" ry="24" fill="#66bfb1" />
+            <ellipse id="eye-right-pupil" cx="647" cy="616" rx="21" ry="26" fill="#204d46" />
+            <circle id="eye-right-highlight" cx="637.5" cy="589.5" r="12" fill="#fcffff" />
+            <circle id="eye-right-highlight-small" cx="650.2" cy="603" r="2" fill="#dcebe3" />
+          </g>
+          <path id="eye-right-iris-outline" d="M651 564 C682 564 701 590 701 621 C701 654 683 675 653 675 C623 677 601 653 602 621 C602 590 621 565 651 564 Z" fill="none" stroke="#090d09" stroke-width="4" />
+        </g>
+      </g>
+      <g id="hair-fringe" inkscape:label="중앙 앞머리">
+        <path id="hair-fringe-center" d="M488 264 C461 302 444 354 442 396 C439 450 445 506 480 543 C493 558 511 571 530 578 C508 556 496 523 492 487 C509 540 548 583 589 579 C596 579 602 578 610 575 C582 546 574 496 571 452 C574 484 578 512 587 535 C615 499 629 454 623 399 C619 342 605 291 583 264 C554 241 516 243 488 264 Z" fill="url(#hair-cream)" stroke="none" />
+        <path id="hair-mint-streak" d="M502 348 C502 408 529 478 572 515 C539 502 514 464 502 424 C493 393 492 367 502 348 Z" fill="#a1e5c6" stroke="none" />
+        <path id="hair-fringe-left-outline" d="M488 264 C452 304 436 362 439 425 C440 505 461 557 530 580 L531 576 C465 553 443 501 444 425 C440 363 457 304 488 264 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-fringe-inner-left" d="M488 439 C484 491 495 548 528 578 L532 579 C508 551 491 495 488 439 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-fringe-bottom-outline" d="M488 439 C497 520 532 574 578 581 C590 584 603 582 612 577 L610 573 C597 578 579 578 563 572 C522 558 499 511 488 439 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-fringe-inner-right" d="M570 445 C570 489 581 548 608 577 L614 578 C586 546 577 494 570 445 Z" fill="url(#hair-line)" stroke="none" />
+        <path id="hair-fringe-right-outline" d="M583 264 C606 299 619 350 621 400 C627 450 615 495 586 535 L589 540 C619 501 631 453 626 399 C622 342 605 290 583 264 Z" fill="url(#hair-line)" stroke="none" />
+      </g>
+      <path id="hood-opening-border" d="M158 601 C197 507 268 393 357 311 C419 257 484 238 544 240 C620 239 691 280 742 337" fill="none" stroke="#080d09" stroke-width="7.5" />
+    </g>
+    <g id="head-accessories" inkscape:label="머리 장식">
+      <g id="hair-cross-clip" transform="translate(294 482) scale(1.8)" inkscape:label="hair-cross-clip">
+        <path id="hair-cross-clip-shape" d="M0 -18 C9 -28 18 -27 23 -19 C28 -11 21 -5 15 0 C27 9 28 18 21 24 C13 30 6 23 0 18 C-8 27 -17 29 -24 22 C-30 14 -23 5 -17 0 C-27 -7 -28 -17 -20 -23 C-12 -30 -5 -23 0 -18 Z" fill="url(#mint)" stroke="#080d09" stroke-width="4.5" />
+      </g>
+      <g id="accessory-cat-pin" stroke-width="7" inkscape:label="고양이 핀">
+        <path id="cat-pin-base" d="M739 344 C747 319 758 301 768 307 C777 312 781 325 785 332 C796 328 806 332 816 336 C828 320 840 314 846 321 C854 329 853 348 850 361 C864 379 868 401 859 420 C848 444 821 454 790 449 C754 447 726 432 720 408 C710 382 721 361 739 344 Z" fill="url(#white-cloth)" />
+        <path id="cat-pin-ear-left" d="M754 340 C757 330 765 325 771 331 C765 333 759 336 754 340 Z" fill="#8e928c" stroke="none" />
+        <path id="cat-pin-ear-right" d="M825 342 C832 334 838 336 840 352 C835 348 830 344 825 342 Z" fill="#8e928c" stroke="none" />
+        <circle id="cat-pin-eye-left" cx="764" cy="383" r="8.5" fill="#060908" stroke="none" />
+        <circle id="cat-pin-eye-right" cx="820" cy="392" r="8.5" fill="#060908" stroke="none" />
+        <path id="cat-pin-mouth" d="M778 397 C780 406 786 406 790 400 C795 408 800 407 802 401" fill="none" stroke="#080b09" stroke-width="5" />
+        <circle id="cat-pin-blush-left" cx="746" cy="396" r="9" fill="#ffc1c6" stroke="none" />
+        <circle id="cat-pin-blush-right" cx="831" cy="411" r="9" fill="#ffbcc5" stroke="none" />
+      </g>
+    </g>
+    <g id="accessory-dino-bag" inkscape:label="공룡 크로스백">
+      <g id="bag-strap" inkscape:label="가방 끈">
+        <path id="bag-strap-base" d="M404 814 C447 881 501 941 568 981 L559 1007 C483 964 427 898 404 832 Z" fill="url(#strap-gray)" stroke-width="7" />
+        <path id="bag-strap-edge" d="M410 835 C451 898 503 949 557 986" fill="none" stroke="#50484c" stroke-width="4" />
+      </g>
+      <g id="bag-spikes" stroke-width="6" inkscape:label="가방 가시">
+        <path id="bag-spike-top" d="M603 900 C611 882 621 865 633 869 C644 872 650 887 656 905 Z" fill="url(#spike-yellow)" />
+        <path id="bag-spike-2" d="M647 897 C662 879 675 885 681 896 C687 906 684 920 680 926 Z" fill="url(#spike-yellow)" />
+        <path id="bag-spike-3" d="M684 928 C701 921 714 925 716 937 C718 947 710 956 705 962 Z" fill="url(#spike-yellow)" />
+        <path id="bag-spike-4" d="M708 960 C726 958 735 966 734 977 C731 987 725 993 719 998 Z" fill="url(#spike-yellow)" />
+        <path id="bag-spike-5" d="M722 996 C740 994 749 1003 747 1015 C746 1026 738 1032 730 1037 Z" fill="url(#spike-yellow)" />
+        <path id="bag-spike-6" d="M733 1038 C749 1036 759 1047 757 1058 C755 1065 750 1071 743 1073 Z" fill="url(#spike-yellow)" />
+      </g>
+      <g id="bag-feet" stroke-width="6" inkscape:label="가방 발">
+        <path id="bag-foot-left" d="M588 1096 L628 1106 C631 1122 620 1137 606 1131 C594 1130 587 1119 588 1096 Z" fill="url(#mint)" />
+        <path id="bag-foot-middle" d="M641 1109 L681 1111 C682 1129 673 1143 659 1140 C648 1138 642 1127 641 1109 Z" fill="url(#mint)" />
+        <path id="bag-foot-right" d="M680 1103 L717 1099 C720 1118 713 1132 699 1132 C686 1131 682 1118 680 1103 Z" fill="url(#mint)" />
+      </g>
+      <g id="bag-body" inkscape:label="가방 몸체">
+        <path id="bag-body-base" d="M559 1003 C539 1002 529 1009 531 1024 C534 1037 545 1042 557 1042 C556 1078 574 1103 607 1114 C646 1128 707 1120 733 1107 C749 1099 760 1088 767 1076 C762 1068 749 1074 739 1064 C736 1016 720 957 690 926 C667 902 642 894 617 898 C580 900 553 919 547 946 C536 970 546 991 559 1003 Z" fill="url(#mint)" stroke-width="7" />
+        <ellipse id="bag-belly" cx="618" cy="1059" rx="32" ry="43" fill="#fcf9d7" stroke="none" transform="rotate(-35 618 1059)" />
+        <path id="bag-smile-seam" d="M552 993 C583 1011 635 1014 665 994" fill="none" stroke="#080d09" stroke-width="6" />
+        <path id="bag-arm-mark" d="M673 1015 C663 1034 674 1044 686 1042 C702 1042 710 1027 695 1011" fill="none" stroke="#0a130d" stroke-width="6" />
+      </g>
+      <g id="bag-face" stroke="none" inkscape:label="가방 얼굴">
+        <circle id="bag-eye-left" cx="584" cy="953" r="8" fill="#060d08" />
+        <circle id="bag-eye-right" cx="640" cy="957" r="8" fill="#060d08" />
+        <path id="bag-mouth" d="M600 967 C603 973 608 972 611 968 C614 973 619 974 621 969" fill="none" stroke="#09140c" stroke-width="4.5" />
+        <circle id="bag-cheek-left" cx="567" cy="968" r="8.5" fill="#ffc5bd" />
+        <circle id="bag-cheek-right" cx="654" cy="974" r="9" fill="#ffc5bd" />
+      </g>
+    </g>
+  </g>
+</svg>
+</div></div></article></section>
+<aside><h2>파트 살펴보기</h2><p>체크를 끄면 해당 파트가 숨겨집니다.<br>마스터 파일은 변경되지 않습니다.</p><div class="partlist" id="partlist"></div><button id="restore">모든 파트 표시</button><div class="meta">1086 × 1448 / 투명 배경<br>55 semantic groups · 153 drawables<br>래스터 포함 0 · 리깅 미적용</div></aside></div>
+<div class="downloads"><span>직접 렌더링 PNG</span><a href="qa/character-1x.png" download>1×</a><a href="qa/character-2x.png" download>2×</a><a href="qa/character-4x.png" download>4×</a><span>원본 비교</span><a href="qa/comparison-1x.png">1×</a><a href="qa/comparison-2x.png">2×</a><a href="qa/comparison-4x.png">4×</a><a href="qa/comparison/overlay.png">50% 오버레이</a></div><p class="footnote">SVG는 선택한 배율로 즉시 렌더링됩니다. 비교 PNG의 원본 확대는 nearest-neighbor 보간이며 새로운 디테일을 만들지 않습니다. 좌·우 파트 이름은 화면 기준입니다.</p></main>
+<script>
+const panes=document.getElementById('panes');const art=document.querySelector('.art>svg');
+const layerDefs=[['hood-back','공룡 후드'],['hood-spikes','후드 가시'],['back-hair','민트색 뒷머리'],['face-base','얼굴 바탕'],['hair-crown','머리카락 바탕'],['hair-side-left','왼쪽 옆머리'],['hair-side-right','오른쪽 옆머리'],['hair-fringe','중앙 앞머리'],['eye-left','왼쪽 눈'],['eye-right','오른쪽 눈'],['brows','눈썹'],['mouth','입'],['cheeks','뺨 표시'],['neck','목'],['torso','상의 몸판'],['arm-left','왼팔과 손'],['arm-right','오른팔과 손'],['hood-collar','후드 목둘레'],['hood-drawstrings','후드 끈'],['shorts','반바지'],['legs','다리와 양말'],['feet','신발'],['tail-back','꼬리'],['hair-cross-clip','X 머리핀'],['accessory-cat-pin','고양이 핀'],['accessory-dino-bag','공룡 가방']];
+for(const [id,label]of layerDefs){let row=document.createElement('label'),box=document.createElement('input');box.type='checkbox';box.checked=true;box.dataset.part=id;box.addEventListener('change',()=>{art.querySelector('#'+id).style.display=box.checked?'':'none'});row.append(box,document.createTextNode(label));document.getElementById('partlist').append(row)}
+document.getElementById('restore').addEventListener('click',()=>{document.querySelectorAll('[data-part]').forEach(box=>{box.checked=true;art.querySelector('#'+box.dataset.part).style.display=''})});
+for(const button of document.querySelectorAll('[data-mode]'))button.addEventListener('click',()=>{panes.className='panes '+(button.dataset.mode==='pair'?'':button.dataset.mode);document.body.classList.toggle('overlay-active',button.dataset.mode==='overlay');document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)))});
+document.getElementById('zoom').addEventListener('change',e=>{document.querySelectorAll('.art').forEach(a=>a.style.width=e.target.value==='fit'?'100%':(1086*Number(e.target.value))+'px')});
+document.getElementById('background').addEventListener('change',e=>{document.body.classList.remove('background-white','background-dark');if(e.target.value!=='checker')document.body.classList.add('background-'+e.target.value)});
+document.getElementById('mix').addEventListener('input',e=>{panes.style.setProperty('--mix',e.target.value/100);document.getElementById('mix-value').value=e.target.value+'%'});
+const views=[document.getElementById('source-viewport'),document.getElementById('vector-viewport')];for(let i=0;i<2;i++)views[i].addEventListener('scroll',()=>{if(!panes.classList.contains('overlay')&&!panes.classList.contains('vector')){let b=views[1-i];if(b.scrollLeft!==views[i].scrollLeft)b.scrollLeft=views[i].scrollLeft;if(b.scrollTop!==views[i].scrollTop)b.scrollTop=views[i].scrollTop}},{passive:true});
+</script></body></html>

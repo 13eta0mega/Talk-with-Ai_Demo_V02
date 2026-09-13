@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" width="510" height="340" viewBox="280 435 510 340" version="1.1" role="img" aria-labelledby="mint-1-art-title mint-1-art-desc" data-rig-instance="mint-1-">
+  <title id="mint-1-art-title" data-source-id="art-title">민트 공룡 후드 캐릭터 — semantic vector master</title>
+  <desc id="mint-1-art-desc" data-source-id="art-desc">PNG reference reconstructed with editable cubic Bézier paths. Static, transparent, pure vector. Left and right refer to the viewer. No rig, animation, bitmap or external resource.</desc>
+  <defs>
+    <linearGradient id="mint-1-mint" x1="0%" y1="10%" x2="100%" y2="85%" data-source-id="mint">
+      <stop offset="0%" stop-color="#a9ebcd" />
+      <stop offset="54%" stop-color="#a4e5c2" />
+      <stop offset="100%" stop-color="#afeace" />
+    </linearGradient>
+    <linearGradient id="mint-1-mint-shade" x1="0%" y1="100%" x2="100%" y2="0%" data-source-id="mint-shade">
+      <stop offset="0%" stop-color="#96d7b6" />
+      <stop offset="100%" stop-color="#b0eacc" />
+    </linearGradient>
+    <linearGradient id="mint-1-hood-lining" data-source-id="hood-lining">
+      <stop offset="0%" stop-color="#71b397" />
+      <stop offset="50%" stop-color="#8bcda9" />
+      <stop offset="100%" stop-color="#6bad93" />
+    </linearGradient>
+    <linearGradient id="mint-1-hair-cream" x1="0%" y1="0%" x2="65%" y2="100%" data-source-id="hair-cream">
+      <stop offset="0%" stop-color="#fff3e3" />
+      <stop offset="55%" stop-color="#fff1df" />
+      <stop offset="100%" stop-color="#fcf3e7" />
+    </linearGradient>
+    <linearGradient id="mint-1-hair-line" x1="0" y1="264" x2="0" y2="790" gradientUnits="userSpaceOnUse" data-source-id="hair-line">
+      <stop offset="0%" stop-color="#d9d3c1" />
+      <stop offset="48%" stop-color="#898e80" />
+      <stop offset="100%" stop-color="#626e61" />
+    </linearGradient>
+    <radialGradient id="mint-1-skin" cx="47%" cy="50%" r="70%" data-source-id="skin">
+      <stop offset="0%" stop-color="#ffeddf" />
+      <stop offset="73%" stop-color="#ffebdc" />
+      <stop offset="100%" stop-color="#fbe6d7" />
+    </radialGradient>
+    <linearGradient id="mint-1-white-cloth" x1="20%" y1="0%" x2="85%" y2="100%" data-source-id="white-cloth">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#fefefe" />
+      <stop offset="100%" stop-color="#f6f8f7" />
+    </linearGradient>
+    <linearGradient id="mint-1-spike-yellow" x1="0%" y1="100%" x2="100%" y2="0%" data-source-id="spike-yellow">
+      <stop offset="0%" stop-color="#fff3b7" />
+      <stop offset="100%" stop-color="#ffeca0" />
+    </linearGradient>
+    <linearGradient id="mint-1-iris-teal" x1="0%" y1="0%" x2="0%" y2="100%" data-source-id="iris-teal">
+      <stop offset="0%" stop-color="#254842" />
+      <stop offset="50%" stop-color="#24564e" />
+      <stop offset="100%" stop-color="#479b8e" />
+    </linearGradient>
+    <linearGradient id="mint-1-strap-gray" data-source-id="strap-gray">
+      <stop offset="0%" stop-color="#292629" />
+      <stop offset="55%" stop-color="#363236" />
+      <stop offset="100%" stop-color="#4a4446" />
+    </linearGradient>
+    <clipPath id="mint-1-eye-left-clip" clipPathUnits="userSpaceOnUse" data-source-id="eye-left-clip">
+      <path id="mint-1-eye-left-clip-path" d="M416 564 C447 564 466 589 466 620 C467 654 449 675 419 675 C388 678 367 653 367 621 C366 590 386 565 416 564 Z" fill="none" data-source-id="eye-left-clip-path" />
+    </clipPath>
+    <clipPath id="mint-1-eye-right-clip" clipPathUnits="userSpaceOnUse" data-source-id="eye-right-clip">
+      <path id="mint-1-eye-right-clip-path" d="M651 564 C682 564 701 590 701 621 C701 654 683 675 653 675 C623 677 601 653 602 621 C602 590 621 565 651 564 Z" fill="none" data-source-id="eye-right-clip-path" />
+    </clipPath>
+  <clipPath id="mint-1-aperture-left" clipPathUnits="userSpaceOnUse"><path d="M329.64 627.2889 C318.44 604.038 336.36 581.9109 364.36 572.0367 C395.72 560.8388 434.92 570.2574 455.08 589.7791 C475.24 609.45 475.24 640.559 453.96 654.5749 C432.68 669.2647 392.36 668.0234 364.36 660.2341 C344.2 653.0187 335.24 643.2366 329.64 627.2889 Z" /><path d="M415.88 569.0416 C450.6 569.7843 471.88 593.1626 471.88 621.1246 C473 649.118 452.84 664.6519 419.24 663.8743 C384.52 666.2717 361 647.0831 361 620.8213 C359.88 592.8864 382.28 569.9436 415.88 569.0416 Z" /></clipPath><clipPath id="mint-1-aperture-right" clipPathUnits="userSpaceOnUse"><path d="M738.24 627.2889 C749.44 604.038 731.52 581.9109 703.52 572.0367 C672.16 560.8388 634.08 570.2327 613.92 589.7402 C593.76 609.45 593.76 640.559 615.04 654.5368 C636.32 669.2416 676.64 668.0285 704.64 660.2588 C724.8 653.0576 732.64 643.2366 738.24 627.2889 Z" /><path d="M650.88 569.0538 C617.28 570.6863 596 594.0646 596 622.0266 C594.88 648.3399 619.52 666.0636 653.12 663.8241 C686.72 663.8476 706.88 647.8612 706.88 620.8213 C706.88 592.8593 685.6 569.0416 650.88 569.0538 Z" /></clipPath><clipPath id="mint-1-mouth-interior-clip" clipPathUnits="userSpaceOnUse"><path d="M504 676 C510 690 522 696 535 696 C548 696 560 690 566 676 C560.44 699.9 547.12 705.68 535 705.68 C522.88 705.68 509.56 699.9 504 676 Z" /></clipPath></defs>
+  <g id="mint-1-character" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" ns1:label="Character · 정적 마스터" data-source-id="character">
+    <g id="mint-1-tail-pose" data-rig-slot="tail-pose" transform="translate(0 0) rotate(0.1061 534 1146) rotate(1.2049 685 1100)"><g id="mint-1-tail-back" ns1:label="꼬리" data-source-id="tail-back">
+      <g id="mint-1-tail-spikes" ns1:label="꼬리 가시" data-source-id="tail-spikes">
+        <path id="mint-1-tail-spike-upper" d="M787 1101 C812 1098 849 1081 864 1097 C876 1111 866 1149 861 1172 Z" fill="url(#mint-1-spike-yellow)" data-source-id="tail-spike-upper" />
+        <path id="mint-1-tail-spike-lower" d="M854 1174 C875 1163 905 1145 915 1155 C925 1163 923 1195 922 1210 Z" fill="url(#mint-1-spike-yellow)" data-source-id="tail-spike-lower" />
+      </g>
+      <path id="mint-1-tail-base" d="M669 1026 C721 1024 763 1050 791 1091 C818 1138 854 1187 925 1209 C961 1219 944 1234 912 1246 C839 1276 745 1252 671 1214 C650 1166 649 1085 669 1026 Z" fill="url(#mint-1-mint)" data-source-id="tail-base" />
+    </g></g>
+    <g id="mint-1-head-pose" data-rig-slot="head-pose" transform="translate(0 0) rotate(0.1061 534 1146) translate(0 -4.3646) translate(0 0.2315) rotate(0.164 534 772)"><g id="mint-1-head" ns1:label="머리" data-source-id="head">
+      <g id="mint-1-hood-back" ns1:label="공룡 후드 · 후면" data-source-id="hood-back">
+        <g id="mint-1-hood-spikes" ns1:label="후드 가시와 흰 귀" data-source-id="hood-spikes">
+          <path id="mint-1-hood-spike-top" d="M456 117 C476 77 505 32 535 18 C557 4 590 40 625 113 Z" fill="url(#mint-1-spike-yellow)" stroke-width="8" data-source-id="hood-spike-top" />
+          <path id="mint-1-hood-spike-upper-right" d="M651 125 C679 111 720 96 737 105 C751 114 754 156 754 195 Z" fill="url(#mint-1-spike-yellow)" stroke-width="8" data-source-id="hood-spike-upper-right" />
+          <path id="mint-1-hood-spike-right-1" d="M767 209 C802 205 856 199 870 215 C883 233 864 284 848 318 Z" fill="url(#mint-1-spike-yellow)" stroke-width="8" data-source-id="hood-spike-right-1" />
+          <path id="mint-1-hood-spike-right-2" d="M847 332 C877 331 947 348 963 371 C976 388 940 442 916 473 Z" fill="url(#mint-1-spike-yellow)" stroke-width="8" data-source-id="hood-spike-right-2" />
+          <path id="mint-1-hood-spike-right-3" d="M919 506 C953 519 993 536 1000 558 C1006 578 980 613 959 631 Z" fill="url(#mint-1-spike-yellow)" stroke-width="8" data-source-id="hood-spike-right-3" />
+          <path id="mint-1-hood-ear-left" d="M207 371 C193 337 183 284 187 246 C190 209 250 198 320 202 Z" fill="url(#mint-1-white-cloth)" stroke-width="8" data-source-id="hood-ear-left" />
+          <path id="mint-1-hood-spike-left" d="M207 373 C173 385 118 404 107 426 C101 446 123 488 143 510 Z" fill="url(#mint-1-spike-yellow)" stroke-width="8" data-source-id="hood-spike-left" />
+        </g>
+        <path id="mint-1-hood-shell" d="M160 729 C113 706 96 667 106 608 C118 548 161 455 199 383 C245 297 289 236 337 190 C396 135 462 101 528 99 C603 92 667 120 724 162 C807 223 852 305 891 388 C919 450 941 520 958 598 C975 658 958 701 899 733 C863 757 807 778 753 785 L278 787 C221 775 188 752 160 729 Z" fill="url(#mint-1-mint)" stroke-width="8" data-source-id="hood-shell" />
+        <path id="mint-1-hood-inner-lining" d="M158 601 C201 500 271 386 357 311 C419 257 484 232 544 239 C627 234 702 281 767 358 C832 435 886 538 910 601 C926 644 905 694 868 719 C790 769 669 794 533 797 C393 795 272 776 194 720 C158 694 148 651 158 601 Z" fill="url(#mint-1-hood-lining)" stroke="#39735c" stroke-width="5" data-source-id="hood-inner-lining" />
+        <g id="mint-1-hood-face-mark" stroke="none" ns1:label="후드 공룡 얼굴" data-source-id="hood-face-mark">
+          <ellipse id="mint-1-hood-eye-left" cx="421.5" cy="200" rx="20" ry="27" fill="#080c09" transform="rotate(30 421.5 200)" data-source-id="hood-eye-left" />
+          <ellipse id="mint-1-hood-eye-right" cx="661.5" cy="200" rx="20" ry="27" fill="#080c09" transform="rotate(-31 661.5 200)" data-source-id="hood-eye-right" />
+          <path id="mint-1-hood-smile" d="M500 195 C511 214 528 208 541 196 C556 211 574 211 582 195" fill="none" stroke="#070c08" stroke-width="8" data-source-id="hood-smile" />
+        </g>
+      </g>
+      <g id="mint-1-back-hair" ns1:label="뒷머리 · 민트색 끝단" data-source-id="back-hair">
+        <path id="mint-1-back-hair-left" d="M215.9847 593.995 C219.766 646.9236 208.3775 684.7968 186.8249 719.6174 C174.4803 737.5068 156.1109 752.3885 137.8399 761.3042 C151.4298 779.1697 174.2737 787.1147 196.5048 781.1862 C172.9924 797.0232 192.8276 804.9658 211.1197 797.0597 C230.3522 791.1346 243.7725 776.2716 249.1557 759.3966 C247.1941 799.0821 244.5108 822.8588 219.0615 833.7136 C237.7701 845.617 260.9708 842.6809 273.6685 827.8531 C272.131 844.6819 263.6547 855.5606 252.3674 861.4841 C274.1684 882.336 301.0712 873.4803 325.8324 859.6446 C343.2555 864.645 368.3707 835.943 378.9626 800.2397 C357.2166 747.5563 308.635 675.8535 285.9576 611.9844 Z" fill="url(#mint-1-mint)" stroke-width="7" data-source-id="back-hair-left" />
+        <path id="mint-1-back-hair-right" d="M803.038 596.0001 C829.2504 632.0036 846.9708 676.017 878.0919 717.0598 C893.795 738.0925 908.493 754.141 926.7713 760.1744 C916.5387 778.1873 895.8791 785.1672 874.6326 781.1179 C895.459 796.1881 880.8939 805.159 860.4373 797.1053 C844.0976 791.0703 829.4488 779.0319 820.7135 762.0184 C822.5134 800.0262 827.6495 821.0407 850.5063 834.1145 C832.176 846.0576 806.8511 841.9719 795.874 827.9501 C796.7764 842.9464 805.6635 855.9617 815.1077 862.9982 C793.8594 881.9131 766.9347 875.8194 746.7437 860.7665 C725.3594 863.6889 703.8017 838.6919 690.9843 800.7547 C712.0684 735.9034 757.4898 653.9905 803.038 596.0001 Z" fill="url(#mint-1-mint)" stroke-width="7" data-source-id="back-hair-right" />
+      </g>
+    </g></g>
+    <g id="mint-1-body" ns1:label="몸과 의복" data-source-id="body">
+      <g id="mint-1-legs" ns1:label="다리" data-source-id="legs">
+        <g id="mint-1-leg-left" ns1:label="다리 · left" data-source-id="leg-left">
+          <path id="mint-1-leg-left-skin" d="M378.9978 1139.8372 C420.9967 1143.8373 470.9972 1141.8373 512.998 1138.8372 L507.4139 1207.9184 C505.5784 1230.9608 504.8426 1250.988 506.9976 1275.9998 L374 1287 C383.8959 1254.9923 388.5522 1228.9574 383.4246 1200.905 Z" fill="url(#mint-1-skin)" stroke-width="7" data-source-id="leg-left-skin" />
+          <path id="mint-1-sock-left-base" d="M382.6536 1178.8668 C424.5188 1189.8845 468.5188 1189.8845 509.6683 1177.8653 L505.4412 1215.934 L506.9976 1275.9998 L376 1287 C384.8559 1251.989 389.5261 1226.9541 382.6536 1178.8668 Z" fill="url(#mint-1-white-cloth)" stroke-width="6" data-source-id="sock-left-base" />
+          <path id="mint-1-sock-left-band" d="M384.5803 1183.874 C423.476 1194.8938 470.476 1194.8938 508.595 1182.8725 L507.4105 1206.9165 C464.4549 1219.9418 422.4549 1219.9418 385.4242 1210.9243 Z" fill="url(#mint-1-mint)" stroke="none" data-source-id="sock-left-band" />
+        </g>
+        <g id="mint-1-leg-right" ns1:label="다리 · right" data-source-id="leg-right">
+          <path id="mint-1-leg-right-skin" d="M541.9999 1139.137 C580.9999 1142.137 631.9999 1143.137 673.9999 1136.137 L673.5893 1202.0784 C670.4693 1227.0387 674.1674 1250.0109 682 1285 L550 1280 C553.265 1243.0177 546.5739 1211.0636 541.9999 1139.137 Z" fill="url(#mint-1-skin)" stroke-width="7" data-source-id="leg-right-skin" />
+          <path id="mint-1-sock-right-base" d="M545.3491 1179.1123 C586.4775 1190.0969 632.4775 1190.0969 673.3345 1178.1134 C669.5653 1216.0554 672.1116 1254.0069 682 1285 L550 1280 C553.2371 1245.0158 548.5722 1212.062 545.3491 1179.1123 Z" fill="url(#mint-1-white-cloth)" stroke-width="6" data-source-id="sock-right-base" />
+          <path id="mint-1-sock-right-band" d="M547.4177 1184.1062 C586.5273 1195.0893 631.5273 1195.0893 672.4077 1183.1077 L671.5773 1209.0669 C630.5549 1220.0489 586.5601 1219.0505 549.5773 1209.0669 Z" fill="url(#mint-1-mint)" stroke="none" data-source-id="sock-right-band" />
+        </g>
+        <g id="mint-1-sock-left-pose" data-rig-slot="sock-left-pose" transform="translate(-0.5963 -0.0874)"><g id="mint-1-sock-left-cross" transform="translate(446 1205) scale(1)" ns1:label="sock-left-cross" data-source-id="sock-left-cross">
+          <path id="mint-1-sock-left-cross-shape" d="M0 -18 C9 -28 18 -27 23 -19 C28 -11 21 -5 15 0 C27 9 28 18 21 24 C13 30 6 23 0 18 C-8 27 -17 29 -24 22 C-30 14 -23 5 -17 0 C-27 -7 -28 -17 -20 -23 C-12 -30 -5 -23 0 -18 Z" fill="url(#mint-1-mint)" stroke="#080d09" stroke-width="6" data-source-id="sock-left-cross-shape" />
+        </g></g>
+        <g id="mint-1-sock-right-pose" data-rig-slot="sock-right-pose" transform="translate(0.5842 0.0735)"><g id="mint-1-sock-right-cross" transform="translate(609 1205) scale(1)" ns1:label="sock-right-cross" data-source-id="sock-right-cross">
+          <path id="mint-1-sock-right-cross-shape" d="M0 -18 C9 -28 18 -27 23 -19 C28 -11 21 -5 15 0 C27 9 28 18 21 24 C13 30 6 23 0 18 C-8 27 -17 29 -24 22 C-30 14 -23 5 -17 0 C-27 -7 -28 -17 -20 -23 C-12 -30 -5 -23 0 -18 Z" fill="url(#mint-1-mint)" stroke="#080d09" stroke-width="6" data-source-id="sock-right-cross-shape" />
+        </g></g>
+      </g>
+      <g id="mint-1-feet" ns1:label="신발" data-source-id="feet">
+        <g id="mint-1-foot-left-pose" data-rig-slot="foot-left-pose"><g id="mint-1-foot-left" ns1:label="신발 · left" data-source-id="foot-left">
+          <path id="mint-1-foot-left-shell" d="M374 1275 C410 1246 462 1241 505 1265 C516 1283 521 1315 522 1353 C524 1379 522 1397 510 1407 C483 1425 399 1424 371 1408 C357 1400 355 1380 356 1357 C355 1327 362 1294 374 1275 Z" fill="url(#mint-1-white-cloth)" stroke-width="8" stroke="none" data-source-id="foot-left-shell" />
+          <path id="mint-1-foot-left-mint-top" d="M374 1275 C410 1246 462 1241 505 1265 C511 1284 513 1302 516 1321 C506 1306 495 1302 487 1292 C461 1255 406 1265 389 1300 C377 1306 366 1316 361 1325 C364 1307 366 1294 373 1278 Z" fill="url(#mint-1-mint)" stroke="none" data-source-id="foot-left-mint-top" />
+          <path id="mint-1-foot-left-sole-trim" d="M358 1364 C367 1385 400 1394 438 1395 C476 1395 505 1388 521 1371" fill="none" stroke="#6db18e" stroke-width="6" data-source-id="foot-left-sole-trim" />
+          <g id="mint-1-foot-left-paw" transform="translate(442 1310) scale(0.98)" stroke="#4a9b74" stroke-width="5.5" ns1:label="foot-left-paw" data-source-id="foot-left-paw">
+            <path id="mint-1-foot-left-paw-toe-left" d="M-18 -5 C-30 -11 -35 -23 -28 -29 C-19 -36 -7 -23 -8 -13 Z" fill="url(#mint-1-mint)" data-source-id="foot-left-paw-toe-left" />
+            <path id="mint-1-foot-left-paw-toe-top" d="M-10 -12 C-17 -30 -10 -42 0 -42 C12 -42 18 -29 10 -12 Z" fill="url(#mint-1-mint)" data-source-id="foot-left-paw-toe-top" />
+            <path id="mint-1-foot-left-paw-toe-right" d="M9 -13 C10 -27 23 -33 30 -26 C38 -17 25 -6 18 -4 Z" fill="url(#mint-1-mint)" data-source-id="foot-left-paw-toe-right" />
+            <path id="mint-1-foot-left-paw-pad" d="M-22 -8 C-14 -28 11 -27 21 -9 C34 11 26 29 9 29 C4 30 1 28 -1 27 C-8 31 -19 29 -25 22 C-31 14 -28 0 -22 -8 Z" fill="url(#mint-1-mint)" data-source-id="foot-left-paw-pad" />
+          </g>
+          <path id="mint-1-foot-left-toe" d="M384 1412 C378 1388 395 1356 421 1349 C455 1338 484 1360 495 1386 C498 1395 500 1405 497 1413 C463 1421 416 1420 384 1412 Z" fill="url(#mint-1-white-cloth)" stroke-width="5.5" data-source-id="foot-left-toe" />
+          <path id="mint-1-foot-left-outer-outline" d="M374 1275 C410 1246 462 1241 505 1265 C516 1283 521 1315 522 1353 C524 1379 522 1397 510 1407 C483 1425 399 1424 371 1408 C357 1400 355 1380 356 1357 C355 1327 362 1294 374 1275 Z" fill="none" stroke="#090c09" stroke-width="8" data-source-id="foot-left-outer-outline" />
+        </g></g>
+        <g id="mint-1-foot-right-pose" data-rig-slot="foot-right-pose"><g id="mint-1-foot-right" ns1:label="신발 · right" data-source-id="foot-right">
+          <path id="mint-1-foot-right-shell" d="M549 1275 C585 1246 636 1241 678 1265 C691 1286 697 1317 699 1352 C701 1378 700 1396 688 1407 C661 1425 577 1424 549 1408 C535 1400 533 1381 534 1357 C534 1325 539 1295 549 1275 Z" fill="url(#mint-1-white-cloth)" stroke-width="8" stroke="none" data-source-id="foot-right-shell" />
+          <path id="mint-1-foot-right-mint-top" d="M549 1275 C585 1246 636 1241 678 1265 C685 1284 688 1305 691 1320 C680 1308 670 1303 660 1292 C634 1255 581 1265 566 1300 C552 1308 543 1315 538 1324 C540 1308 543 1293 548 1278 Z" fill="url(#mint-1-mint)" stroke="none" data-source-id="foot-right-mint-top" />
+          <path id="mint-1-foot-right-sole-trim" d="M535 1364 C543 1385 577 1394 615 1395 C651 1395 685 1388 699 1370" fill="none" stroke="#6db18e" stroke-width="6" data-source-id="foot-right-sole-trim" />
+          <g id="mint-1-foot-right-paw" transform="translate(613 1310) scale(0.98)" stroke="#4a9b74" stroke-width="5.5" ns1:label="foot-right-paw" data-source-id="foot-right-paw">
+            <path id="mint-1-foot-right-paw-toe-left" d="M-18 -5 C-30 -11 -35 -23 -28 -29 C-19 -36 -7 -23 -8 -13 Z" fill="url(#mint-1-mint)" data-source-id="foot-right-paw-toe-left" />
+            <path id="mint-1-foot-right-paw-toe-top" d="M-10 -12 C-17 -30 -10 -42 0 -42 C12 -42 18 -29 10 -12 Z" fill="url(#mint-1-mint)" data-source-id="foot-right-paw-toe-top" />
+            <path id="mint-1-foot-right-paw-toe-right" d="M9 -13 C10 -27 23 -33 30 -26 C38 -17 25 -6 18 -4 Z" fill="url(#mint-1-mint)" data-source-id="foot-right-paw-toe-right" />
+            <path id="mint-1-foot-right-paw-pad" d="M-22 -8 C-14 -28 11 -27 21 -9 C34 11 26 29 9 29 C4 30 1 28 -1 27 C-8 31 -19 29 -25 22 C-31 14 -28 0 -22 -8 Z" fill="url(#mint-1-mint)" data-source-id="foot-right-paw-pad" />
+          </g>
+          <path id="mint-1-foot-right-toe" d="M559 1412 C553 1388 570 1356 596 1349 C630 1338 659 1360 671 1386 C674 1395 676 1405 673 1413 C638 1421 591 1420 559 1412 Z" fill="url(#mint-1-white-cloth)" stroke-width="5.5" data-source-id="foot-right-toe" />
+          <path id="mint-1-foot-right-outer-outline" d="M549 1275 C585 1246 636 1241 678 1265 C691 1286 697 1317 699 1352 C701 1378 700 1396 688 1407 C661 1425 577 1424 549 1408 C535 1400 533 1381 534 1357 C534 1325 539 1295 549 1275 Z" fill="none" stroke="#090c09" stroke-width="8" data-source-id="foot-right-outer-outline" />
+        </g></g>
+      </g>
+      <g id="mint-1-shorts-pose" data-rig-slot="shorts-pose" transform="translate(0 0) rotate(0.1061 534 1146)"><g id="mint-1-shorts" ns1:label="반바지" data-source-id="shorts">
+        <path id="mint-1-shorts-left" d="M354 1111 L520 1113 L519 1153 C495 1170 407 1175 357 1156 C350 1152 353 1131 354 1111 Z" fill="url(#mint-1-white-cloth)" stroke-width="7" data-source-id="shorts-left" />
+        <path id="mint-1-shorts-right" d="M536 1113 L706 1110 L704 1152 C677 1171 588 1175 543 1156 C538 1154 539 1136 536 1113 Z" fill="url(#mint-1-white-cloth)" stroke-width="7" data-source-id="shorts-right" />
+      </g></g>
+      <g id="mint-1-neck-breath" data-rig-slot="neck-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(534 1125.2315) scale(1 1) translate(-534 -1125) translate(0 -4.3646)"><g id="mint-1-neck" ns1:label="목" data-source-id="neck">
+        <path id="mint-1-neck-skin" d="M500 737 L567 737 L568 775 C584 785 603 785 615 797 C573 832 493 830 454 800 C466 787 487 786 499 777 Z" fill="url(#mint-1-skin)" stroke-width="7" data-source-id="neck-skin" />
+        <path id="mint-1-neck-shadow" d="M503 745 L564 745 L564 777 C545 781 522 779 503 775 Z" fill="#fac9b3" stroke="none" data-source-id="neck-shadow" />
+      </g></g>
+      <g id="mint-1-torso-breath" data-rig-slot="torso-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(534 1125.2315) scale(1 1) translate(-534 -1125)"><g id="mint-1-torso" ns1:label="상의 몸판" data-source-id="torso">
+        <path id="mint-1-torso-base" d="M402.0035 804.6372 C452.0008 792.6361 482.0012 803.6371 530.9999 803.6371 C576.9987 803.6371 616.9989 792.6361 664.9955 805.6373 C690.5953 848.7937 706.8412 910.5864 707.844 973.7855 C708.5608 1025.8005 719.9744 1079.638 706.8648 1119.9509 C659.9797 1140.9865 595.9812 1131.9712 536.0053 1132.9729 C481.0284 1132.9729 461.0553 1122.956 419.061 1129.9679 C388.0697 1133.9746 355.0676 1136.9797 339.1533 1121.9543 C323.4203 1105.8752 328.1324 1080.6471 335.9133 1057.3231 C355.1545 993.1773 360.5129 890.2526 402.0035 804.6372 Z" fill="url(#mint-1-white-cloth)" stroke-width="7" data-source-id="torso-base" />
+        <path id="mint-1-torso-hem" d="M332.0859 1081.6562 C365.4287 1101.8387 400.271 1106.8844 445.3096 1098.8113 C489.2464 1088.7201 518.088 1080.6471 562.8936 1088.7201 C613.8017 1098.8113 658.691 1098.8113 711.1074 1082.6653 L707.8692 1120.9526 C655.9797 1140.9865 593.9801 1130.9696 536.005 1133.9746 C479.0284 1132.9729 462.0526 1123.9577 420.0578 1130.9696 C379.0604 1135.978 337.0609 1138.9831 331.233 1111.93 C328.5945 1099.8205 329.8325 1091.7475 332.0859 1081.6562 Z" fill="url(#mint-1-mint)" stroke="#538b6f" stroke-width="5.5" data-source-id="torso-hem" />
+        <path id="mint-1-torso-fold-left" d="M456.6437 1067.4744 C462.4256 1076.6106 469.2973 1086.7018 480.2453 1090.7383 C465.2687 1092.7566 452.4412 1081.6562 456.6437 1067.4744 Z" fill="#b0e0cc" stroke="none" data-source-id="torso-fold-left" />
+        <g id="mint-1-torso-paw" transform="translate(393 1056) scale(1.02)" stroke="#4a9b74" stroke-width="5.5" ns1:label="torso-paw" data-source-id="torso-paw">
+          <path id="mint-1-torso-paw-toe-left" d="M-16.3246 -5.7689 C-28.0504 -11.8597 -32.6543 -24.073 -25.6413 -30.1867 C-16.6084 -37.3194 -5.0408 -24.073 -6.2453 -13.8899 Z" fill="url(#mint-1-mint)" data-source-id="torso-paw-toe-left" />
+          <path id="mint-1-torso-paw-toe-top" d="M-8.2411 -12.8748 C-14.7646 -31.2057 -7.6067 -43.4332 2.2236 -43.4332 C14.0201 -43.4332 19.7211 -30.1867 11.5142 -12.8748 Z" fill="url(#mint-1-mint)" data-source-id="torso-paw-toe-top" />
+          <path id="mint-1-torso-paw-toe-right" d="M10.5467 -13.8899 C11.8265 -28.1488 24.6969 -34.2626 31.4957 -27.1298 C39.2613 -17.9592 26.2089 -6.784 19.2539 -4.7538 Z" fill="url(#mint-1-mint)" data-source-id="torso-paw-toe-right" />
+          <path id="mint-1-torso-paw-pad" d="M-20.2128 -8.8143 C-11.8453 -29.1678 12.8095 -28.1488 22.3187 -9.8294 C34.8107 10.4732 26.5358 28.695 9.6314 28.695 C4.6452 29.7041 1.6945 27.6859 -0.278 26.6767 C-7.2996 30.7132 -18.2294 28.695 -24.0637 21.6311 C-29.7727 13.5185 -26.3981 -0.6932 -20.2128 -8.8143 Z" fill="url(#mint-1-mint)" data-source-id="torso-paw-pad" />
+        </g>
+      </g></g>
+      <g id="mint-1-arm-left-breath" data-rig-slot="arm-left-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(534 1125.2315) scale(1 1) translate(-534 -1125) translate(0 -4.3646)"><g id="mint-1-arm-left" ns1:label="팔 · left" data-source-id="arm-left">
+        <g id="mint-1-hand-left" ns1:label="손 · left" data-source-id="hand-left">
+          <path id="mint-1-hand-left-skin" d="M221.5256 1014.5113 C208.5789 1026.5355 179.5883 1029.4693 177.5425 1046.4639 C175.4967 1063.4584 200.4724 1072.5257 224.5127 1057.5904 C212.4696 1073.558 224.44 1084.5903 238.4507 1080.628 C252.4614 1076.6657 267.4941 1065.7084 275.5807 1054.7693 Z" fill="url(#mint-1-skin)" stroke-width="7" data-source-id="hand-left-skin" />
+        </g>
+        <g id="mint-1-sleeve-left" ns1:label="소매 · left" data-source-id="sleeve-left">
+          <path id="mint-1-sleeve-left-base" d="M402 810 C360.5472 841.6727 302.3024 886.0262 257.4999 922.3788 C233.2718 942.1729 220.8276 956.5454 226.1622 979.5207 L268.5177 1057.7125 C290.6153 1063.8505 314.0076 1066.1877 336.4277 1052.1992 C365.3427 992.7621 386.0342 910.7538 413.0164 852.0115 Z" fill="url(#mint-1-white-cloth)" stroke-width="7" data-source-id="sleeve-left-base" />
+          <path id="mint-1-sleeve-left-fold" d="M344.7041 866.0588 C365.6054 878.7141 379.4556 900.3303 385.5743 929.1534 L378.8067 949.332 C374.7998 914.5867 362.6193 886.7244 344.7041 866.0588 Z" fill="#b2decc" stroke="none" data-source-id="sleeve-left-fold" />
+          <g id="mint-1-sleeve-left-paw" transform="translate(279 967) scale(0.75)" stroke="#4a9b74" stroke-width="5.5" ns1:label="sleeve-left-paw" data-source-id="sleeve-left-paw">
+            <path id="mint-1-sleeve-left-paw-shape" d="M-9.1173 -26.3355 C-9.5266 -42.6359 4.9653 -45.258 12.5068 -34.8547 C17.8884 -27.5676 14.8426 -24.6035 15.9345 -22.535 C27.2299 -28.3091 36.7756 -20.9001 34.9239 -11.7919 C33.0449 -3.7008 23.7537 -0.9207 18.5246 -2.0942 C27.1786 11.4024 16.2354 29.4447 0.7593 30.0764 C-19.6148 31.7672 -33.2708 18.254 -34.0763 0.6658 C-34.662 -16.7677 -23.7875 -30.8458 -9.1173 -26.3355 Z" fill="url(#mint-1-mint)" data-source-id="sleeve-left-paw-shape" />
+          </g>
+          <path id="mint-1-cuff-left" d="M226.2684 981.5978 C240.4997 986.805 284.7947 1028.8934 300.9028 1057.0634 C305.8255 1067.042 291.4582 1078.7724 281.4662 1075.7454 C269.4707 1073.7125 233.5559 1037.6073 215.5484 1017.5164 C201.5246 1004.4381 218.7338 988.9114 226.2684 981.5978 Z" fill="url(#mint-1-mint)" stroke-width="7" data-source-id="cuff-left" />
+        </g>
+      </g></g>
+      <g id="mint-1-arm-right-breath" data-rig-slot="arm-right-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(534 1125.2315) scale(1 1) translate(-534 -1125) translate(0 -4.3646)"><g id="mint-1-arm-right" ns1:label="팔 · right" data-source-id="arm-right">
+        <g id="mint-1-hand-right" ns1:label="손 · right" data-source-id="hand-right">
+          <path id="mint-1-hand-right-skin" d="M851.4531 1014.5152 C864.4292 1023.5134 895.4171 1031.4532 898.4575 1046.445 C900.5087 1065.4396 875.5276 1072.5069 848.4873 1057.5796 C862.533 1074.5419 849.5627 1085.5768 836.5493 1080.6119 C821.5386 1076.6523 807.509 1065.69 799.4519 1054.7306 Z" fill="url(#mint-1-skin)" stroke-width="7" data-source-id="hand-right-skin" />
+        </g>
+        <g id="mint-1-sleeve-right" ns1:label="소매 · right" data-source-id="sleeve-right">
+          <path id="mint-1-sleeve-right-base" d="M666 810 C709.2966 842.7862 766.6447 888.0647 810.4605 922.4111 C835.7289 942.1727 851.2507 957.4849 842.7816 980.5614 L802.4929 1059.7035 C780.4367 1066.8147 757.1497 1067.0753 735.9148 1052.9559 C707.8216 992.6419 687.0383 910.7044 654.9289 853.0498 Z" fill="url(#mint-1-white-cloth)" stroke-width="7" data-source-id="sleeve-right-base" />
+          <path id="mint-1-sleeve-right-fold-outer" d="M718.9139 866.3379 C698.126 878.9102 686.2614 901.5403 682.3849 929.1846 L689.1521 949.3615 C692.1182 914.6474 703.1117 886.9221 718.9139 866.3379 Z" fill="#b2decc" stroke="none" data-source-id="sleeve-right-fold-outer" />
+          <path id="mint-1-sleeve-right-fold-inner" d="M647 841 C658.9102 858.0629 665.408 883.4238 666.6712 906.9594 C656.3314 889.4765 652.8412 862.1111 647 841 Z" fill="#a9d5c0" stroke="none" data-source-id="sleeve-right-fold-inner" />
+          <g id="mint-1-sleeve-right-paw" transform="translate(792 967) scale(0.75)" stroke="#4a9b74" stroke-width="5.5" ns1:label="sleeve-right-paw" data-source-id="sleeve-right-paw">
+            <path id="mint-1-sleeve-right-paw-shape" d="M-3.2602 -26.044 C-2.8526 -42.3457 11.7937 -45.8359 18.8221 -35.8661 C23.846 -28.8904 20.648 -25.7403 21.6375 -23.7339 C33.2163 -30.1759 42.1747 -23.1601 39.7711 -13.8598 C37.428 -5.6028 28.111 -2.3531 22.9949 -3.2609 C30.7332 9.9208 18.867 28.5827 3.477 29.8955 C-17.2365 32.4466 -30.3928 19.5657 -29.9639 2.2416 C-29.5334 -15.0822 -17.7294 -29.6874 -3.2602 -26.044 Z" fill="url(#mint-1-mint)" data-source-id="sleeve-right-paw-shape" />
+          </g>
+          <path id="mint-1-cuff-right" d="M841.7481 981.5891 C825.5773 988.7635 785.3309 1028.8038 770.1977 1056.9885 C766.2861 1067.9585 779.5468 1079.7654 789.536 1075.7385 C801.5333 1074.7062 838.4427 1037.6002 855.4227 1017.5311 C869.4355 1004.4603 851.2732 988.9038 841.7481 981.5891 Z" fill="url(#mint-1-mint)" stroke-width="7" data-source-id="cuff-right" />
+        </g>
+      </g></g>
+      <g id="mint-1-hood-collar-breath" data-rig-slot="hood-collar-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(534 1125.2315) scale(1 1) translate(-534 -1125) translate(0 -4.3646)"><g id="mint-1-hood-collar" ns1:label="후드 목둘레" data-source-id="hood-collar">
+        <path id="mint-1-collar-left" d="M348 853 C328 839 336 814 349 797 C370 773 400 755 429 764 C477 776 514 814 531 850 C548 814 585 777 630 765 C657 758 690 776 710 799 C725 816 735 839 716 853 L665 810 C638 848 588 865 533 878 C477 868 431 847 403 811 Z" fill="url(#mint-1-mint)" stroke-width="7" data-source-id="collar-left" />
+        <path id="mint-1-collar-bottom-shade" d="M403 811 C429 846 477 866 531 877 C588 866 638 847 665 810" fill="none" stroke="#569a78" stroke-width="5" data-source-id="collar-bottom-shade" />
+        <path id="mint-1-collar-left-crease" d="M405 811 C413 802 426 798 435 800 C423 801 414 808 411 817 Z" fill="#79bb98" stroke="none" data-source-id="collar-left-crease" />
+        <path id="mint-1-collar-right-crease" d="M653 812 C644 804 632 799 622 800 C638 796 651 800 661 805 Z" fill="#79bb98" stroke="none" data-source-id="collar-right-crease" />
+      </g></g>
+      <g id="mint-1-hood-drawstrings-breath" data-rig-slot="hood-drawstrings-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(534 1125.2315) scale(1 1) translate(-534 -1125) translate(0 -4.3646)"><g id="mint-1-hood-drawstrings" ns1:label="후드 끈" data-source-id="hood-drawstrings">
+        <path id="mint-1-drawstring-left-tip" d="M452 999 L469 1000 L467 1038 L452 1039 Z" fill="url(#mint-1-spike-yellow)" stroke-width="5.5" data-source-id="drawstring-left-tip" />
+        <path id="mint-1-drawstring-left" d="M478 839 C480 826 496 828 494 840 L472 1012 L449 1011 Z" fill="url(#mint-1-mint)" stroke="#263c2d" stroke-width="6" data-source-id="drawstring-left" />
+        <path id="mint-1-drawstring-right" d="M568 840 C566 827 583 827 586 838 L600 978 L579 981 Z" fill="url(#mint-1-mint)" stroke="#263c2d" stroke-width="6" data-source-id="drawstring-right" />
+      </g></g>
+    </g>
+    <g id="mint-1-face-pose" data-rig-slot="face-pose" transform="translate(0 0) rotate(0.1061 534 1146) translate(0 -4.3646) translate(0 0.2315) rotate(0.164 534 772)"><g id="mint-1-face" ns1:label="얼굴" data-source-id="face">
+      <path id="mint-1-face-base" d="M533 263 C644 266 720 342 751 450 C771.0116 514.9966 777.1546 623.6553 742.625 686.43 C714.7095 735.6829 631.1129 754.906 533.9974 754.906 C436.8672 754.906 350.1452 736.6946 324.3656 688.4279 C286.9486 618.6818 301.989 515.9961 326 446 C360 343 426 264 533 263 Z" fill="url(#mint-1-skin)" stroke-width="7" data-source-id="face-base" />
+      <g id="mint-1-brows" ns1:label="눈썹" data-source-id="brows">
+        <path id="mint-1-brow-left" d="M396 458.7 C410 453.7 428 456.7 435 461.7 C444 469.7 414 474.7 395 474.7 Z" fill="#93cbae" stroke="#547863" stroke-width="4" data-source-id="brow-left" />
+        <path id="mint-1-brow-right" d="M663 458.7 C650 453.7 631 456.7 626 461.7 C617 469.7 645 474.7 667 474.7 Z" fill="#93cbae" stroke="#547863" stroke-width="4" data-source-id="brow-right" />
+      </g>
+      <g id="mint-1-cheeks" stroke="#0a0d09" stroke-width="7" ns1:label="뺨 · 점 표시" data-source-id="cheeks">
+        <path id="mint-1-cheek-left-dot-outer" d="M370 674 L368 675" fill="none" data-source-id="cheek-left-dot-outer" />
+        <path id="mint-1-cheek-left-dot-inner" d="M384 679 L382 681" fill="none" data-source-id="cheek-left-dot-inner" />
+        <path id="mint-1-cheek-right-dot-inner" d="M684 679 L686 681" fill="none" data-source-id="cheek-right-dot-inner" />
+        <path id="mint-1-cheek-right-dot-outer" d="M698 674 L700 675" fill="none" data-source-id="cheek-right-dot-outer" />
+      </g>
+      <g id="mint-1-expression-blush" opacity="0.175" stroke="none"><ellipse cx="370" cy="699" rx="25" ry="11" fill="#f3a3ae" /><ellipse cx="699" cy="699" rx="25" ry="11" fill="#f3a3ae" /></g><g id="mint-1-mouth" ns1:label="입" data-source-id="mouth">
+        <path d="M512 678 C518 686 526 688 535 681 C544 688 552 686 558 678 C557 707 513 707 512 678 Z" fill="#603638" stroke="#080d09" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M521 696 C529 689 542 689 550 696 C543 703 528 703 521 696 Z" fill="#f1adb5" stroke="none" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" /></g>
+      <circle id="mint-1-nose-highlight" cx="533" cy="644" r="2" fill="#fff9ef" stroke="none" data-source-id="nose-highlight" />
+    </g></g>
+    <g id="mint-1-front-hair-pose" data-rig-slot="front-hair-pose" transform="translate(0 0) rotate(0.1061 534 1146) translate(0 -4.3646) translate(0 0.2315) rotate(0.164 534 772)"><g id="mint-1-front-hair" stroke="url(#mint-1-hair-line)" stroke-width="5" ns1:label="앞머리" data-source-id="front-hair">
+      <path id="mint-1-hair-crown" d="M134.6636 618.248 C177.9758 601.3419 194.6865 537.5719 234.26 473.7579 C290.793 380.9269 357.9755 309.9865 422.9994 271.9989 C469.0003 244.9996 513.0004 236.9998 546.0009 239.9998 C624.0012 238.9999 699.0256 286.9987 752.2141 343.9953 C824.8018 420.0051 851.6954 491.0314 882.0148 568.0848 C895.6614 598.1226 911.0212 614.1551 932.1548 619.1903 C917.4805 633.1838 900.4584 633.1576 879.2538 626.1133 C893.6311 680.1804 886.8751 725.1966 847.23 740.0982 C860.4326 712.1198 855.5821 681.0973 839.8631 654.0542 C833.473 716.0487 810.6844 762.9864 758.4363 778.8192 C731.1481 792.7258 705.5227 793.6424 681.8149 785.5875 C710.0119 765.6883 722.6027 734.7621 729.9471 699.8135 C750.5143 666.8784 753.6402 622.9092 752.4852 557.9414 C698.6225 525.9084 658.8154 463.9283 623.2701 385.9669 C596.0246 293.9962 489.0012 271.9991 441.9997 381.9433 C407.8641 463.831 371.5229 523.698 315.9247 558.5752 C309.407 614.3968 313.0312 660.2351 338.1262 699.1164 C346.9516 735.9735 364.0772 768.8634 387.587 784.8491 C362.8583 794.7525 329.0686 790.7054 303.5356 776.7153 C252.1032 760.7019 229.6343 714.8993 228.48 653.1759 C210.018 683.0266 208.5761 712.8827 225.2492 738.7738 C186.262 726.7827 173.8522 684.9774 187.5958 634.2171 C167.4619 640.1767 148.517 632.1979 134.6636 618.248 Z" fill="url(#mint-1-hair-cream)" stroke="none" data-source-id="hair-crown" />
+      <g id="mint-1-hair-side-left" ns1:label="옆머리 · left" data-source-id="hair-side-left">
+        <path id="mint-1-hair-side-left-shape" d="M397.9853 318.9845 C358.9076 364.9494 327.5909 454.8216 318.2225 515.6896 C310.749 577.5176 314.078 657.2474 366.5845 701.146 C333.8757 714.0477 303.6238 685.1241 288.9105 646.2621 C295.4688 689.0969 321.7212 707.059 337.0634 703.0984 C342.8573 737.959 363.0495 769.8575 387.587 784.8491 C339.1615 805.6583 278.2367 771.6935 252.6408 725.8781 C233.9046 696.9872 230.3055 667.1188 233.7872 629.2761 C221.3017 665.1184 207.646 707.9055 225.2492 738.7738 C183.2631 725.7835 172.8784 682.9862 186.5925 634.2161 C174.4935 639.1857 147.5275 631.2015 134.6636 618.248 C168.8513 610.3028 186.199 583.4136 209.6566 543.5615 C242.1762 485.7303 279.6162 422.8672 321.8395 377.9342 C348.9284 347.9628 377.9723 325.9812 397.9853 318.9845 Z" fill="url(#mint-1-hair-cream)" stroke="none" data-source-id="hair-side-left-shape" />
+        <path id="mint-1-hair-left-top-strand" d="M397.9853 318.9845 C356.9009 368.9461 326.5713 457.8158 320.1369 534.6438 L314.9079 559.5717 C310.3888 481.764 350.8927 370.944 397.9853 318.9845 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-left-top-strand" />
+        <path id="mint-1-hair-left-temple-strand" d="M218.5074 560.5124 C203.1856 588.4081 189.8307 616.2935 183.5566 636.2047 L192.5862 636.2135 C197.9202 610.3221 208.2829 580.4396 218.5074 560.5124 Z" fill="#b4b5a4" stroke="none" data-source-id="hair-left-temple-strand" />
+        <path id="mint-1-hair-left-lower-strand" d="M288.9105 646.2621 C297.6584 674.162 315.7316 696.0961 342.1821 700.1174 C352.3253 702.1217 359.4407 702.1307 366.5845 701.146 C335.9385 712.0591 306.5543 696.0825 292.6928 668.1817 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-left-lower-strand" />
+        <path id="mint-1-hair-left-tip-strand" d="M281.6143 747.8154 C294.4761 766.7435 310.6966 779.7167 327.0757 783.7313 C313.8233 775.7409 309.8118 764.7798 307.9326 751.8368 C308.7792 765.7737 308.7409 770.7527 311.7827 774.7414 C297.4961 767.744 289.5395 758.7745 281.6143 747.8154 Z" fill="#afb09f" stroke="none" data-source-id="hair-left-tip-strand" />
+        <path id="mint-1-hair-left-lock-contour" d="M318.2225 515.6896 C310.749 577.5176 314.078 657.2474 366.5845 701.146 C357.3759 706.1124 346.1939 707.0951 337.0634 703.0984 C342.8573 737.959 363.0495 769.8575 387.587 784.8491 C339.1615 805.6583 278.2367 771.6935 252.6408 725.8781 C233.9046 696.9872 230.3055 667.1188 233.7872 629.2761 C221.3017 665.1184 207.646 707.9055 225.2492 738.7738 C183.2631 725.7835 172.8784 682.9862 186.5925 634.2161 C174.4935 639.1857 147.5275 631.2015 134.6636 618.248 C168.8513 610.3028 186.199 583.4136 209.6566 543.5615" fill="none" stroke="url(#mint-1-hair-line)" stroke-width="4.5" data-source-id="hair-left-lock-contour" />
+        <path id="mint-1-hair-left-swept-edge" d="M441.9997 381.9433 C407.8641 463.831 371.5229 523.698 315.9247 558.5752" fill="none" stroke="url(#mint-1-hair-line)" stroke-width="5" data-source-id="hair-left-swept-edge" />
+      </g>
+      <g id="mint-1-hair-side-right" ns1:label="옆머리 · right" data-source-id="hair-side-right">
+        <path id="mint-1-hair-side-right-shape" d="M668.078 318.994 C712.2775 364.9873 741.0505 454.9716 749.8131 515.9544 C758.8536 577.9372 752.3808 657.8905 701.4974 701.7492 C733.3095 714.8051 764.17 685.8936 779.4003 646.9426 C772.3629 689.9095 746.4084 707.8435 730.0288 703.8093 C724.7392 738.7633 706.031 770.6714 681.8149 785.5875 C730.4345 806.7064 790.7678 772.9239 816.6926 727.0066 C834.9942 698.0516 839.195 668.0538 835.2828 630.0429 C848.1652 666.0726 862.3569 709.1247 847.23 740.0982 C888.9414 727.2044 896.7472 684.1909 882.2585 626.1182 C898.4558 633.1545 918.4073 630.1817 932.1548 619.1903 C896.9392 611.1318 881.3454 584.0929 857.5589 544.0516 C824.6019 486.0099 786.7901 422.993 744.3808 377.9895 C715.208 347.9914 689.0973 325.994 668.078 318.994 Z" fill="url(#mint-1-hair-cream)" stroke="none" data-source-id="hair-side-right-shape" />
+        <path id="mint-1-hair-right-top-strand" d="M668.078 318.994 C710.2924 368.9861 741.0773 457.9703 749.0883 534.9461 L754.5303 559.9423 C758.4018 481.97 716.3081 370.9866 668.078 318.994 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-right-top-strand" />
+        <path id="mint-1-hair-right-temple-strand" d="M851.6793 551.0478 C869.3529 585.0788 877.8727 609.1028 886.2895 627.1267 L878.2767 627.1123 C869.6933 601.0883 861.0884 573.0618 851.6793 551.0478 Z" fill="#b4b5a4" stroke="none" data-source-id="hair-right-temple-strand" />
+        <path id="mint-1-hair-right-lower-strand" d="M779.4003 646.9426 C769.9729 674.9114 752.2654 696.8655 726.9117 700.8053 C715.7478 702.7768 708.6227 702.7609 701.4974 701.7492 C732.25 712.8048 762.4139 696.8846 774.8548 668.9236 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-right-lower-strand" />
+        <path id="mint-1-hair-right-tip-strand" d="M786.9775 745.9241 C776.4768 767.8798 759.4864 779.8216 742.235 784.7691 C755.3135 776.8114 758.083 765.826 761.8472 752.8488 C760.155 766.8312 760.2913 771.8287 757.3318 775.8178 C772.4625 768.8668 780.2102 756.8967 786.9775 745.9241 Z" fill="#afb09f" stroke="none" data-source-id="hair-right-tip-strand" />
+        <path id="mint-1-hair-right-lock-contour" d="M749.8131 515.9544 C758.8536 577.9372 752.3808 657.8905 701.4974 701.7492 C711.7551 706.7631 721.9617 707.786 730.0288 703.8093 C724.7392 738.7633 706.031 770.6714 681.8149 785.5875 C730.4345 806.7064 790.7678 772.9239 816.6926 727.0066 C834.9942 698.0516 839.195 668.0538 835.2828 630.0429 C848.1652 666.0726 862.3569 709.1247 847.23 740.0982 C888.9414 727.2044 896.7472 684.1909 882.2585 626.1182 C898.4558 633.1545 918.4073 630.1817 932.1548 619.1903 C896.9392 611.1318 881.3454 584.0929 857.5589 544.0516" fill="none" stroke="url(#mint-1-hair-line)" stroke-width="4.5" data-source-id="hair-right-lock-contour" />
+        <path id="mint-1-hair-right-swept-edge" d="M623.2701 385.9669 C658.8154 463.9283 698.6225 525.9084 752.4852 557.9414" fill="none" stroke="url(#mint-1-hair-line)" stroke-width="5" data-source-id="hair-right-swept-edge" />
+      </g>
+      <g id="mint-1-eyes" ns1:label="눈" data-source-id="eyes">
+        <g id="mint-1-eye-left" ns1:label="눈 · left" data-source-id="eye-left">
+          <path id="mint-1-eye-left-lashes" d="M303 593.6764 C322 591.9971 337 587.6966 351 577.8334 L351 552.6432 C362 558.9761 367 557.9931 382 555.1618 C409 550.8468 435 552.955 450 563.5201 L437 563.0861 C452 568.6366 461 579.9447 467 593.6764 C451 582.0318 442 580.0308 430 579.7009 C396 575.182 363 601.7692 340 642.9123 C324 636.7199 313 615.5079 303 593.6764 Z" fill="#080b09" stroke="none" stroke-width="6" data-source-id="eye-left-lashes" />
+          <path id="mint-1-eye-left-white" d="M339 627.6989 C329 606.58 345 586.4209 370 577.3667 C398 567.1528 433 575.7514 451 593.5511 C469 611.5 469 639.657 450 652.1149 C431 665.2467 395 664.0874 370 657.1181 C352 650.7227 344 642.0066 339 627.6989 Z" fill="url(#mint-1-white-cloth)" stroke="none" data-source-id="eye-left-white" />
+          <g id="mint-1-eye-left-opening" clip-path="url(#mint-1-aperture-left)"><g id="mint-1-eye-left-gaze"><g id="mint-1-eye-left-iris" clip-path="url(#mint-1-eye-left-clip)" stroke="none" ns1:label="눈동자 · left" data-source-id="eye-left-iris">
+            <path id="mint-1-eye-left-iris-base" d="M416 564 C447 564 466 589 466 620 C467 654 449 675 419 675 C388 678 367 653 367 621 C366 590 386 565 416 564 Z" fill="url(#mint-1-iris-teal)" data-source-id="eye-left-iris-base" />
+            <path id="mint-1-eye-left-iris-bottom" d="M397 620 C385 626 376 640 377 652 C385 670 398 676 419 676 C439 676 454 666 460 651 C456 636 447 627 438 621 C425 634 410 634 397 620 Z" fill="#4ca99e" data-source-id="eye-left-iris-bottom" />
+            <ellipse id="mint-1-eye-left-iris-glow" cx="420" cy="657" rx="27" ry="24" fill="#66bfb1" data-source-id="eye-left-iris-glow" />
+            <ellipse id="mint-1-eye-left-pupil" cx="420" cy="616" rx="21" ry="26" fill="#204d46" data-source-id="eye-left-pupil" />
+            <circle id="mint-1-eye-left-highlight" cx="430.5" cy="589.5" r="12" fill="#fcffff" data-source-id="eye-left-highlight" />
+            <circle id="mint-1-eye-left-highlight-small" cx="417.8" cy="603" r="2" fill="#dcebe3" data-source-id="eye-left-highlight-small" />
+          </g><path id="mint-1-eye-left-iris-outline" d="M416 564 C447 564 466 589 466 620 C467 654 449 675 419 675 C388 678 367 653 367 621 C366 590 386 565 416 564 Z" fill="none" stroke="#090d09" stroke-width="4" data-source-id="eye-left-iris-outline" /><path id="mint-1-eye-left-heart-overlay" d="M0 23 C-7 16 -24 5 -24 -8 C-24 -22 -7 -27 0 -14 C7 -27 24 -22 24 -8 C24 5 7 16 0 23 Z" fill="#ec6f94" stroke="#8e3957" stroke-width="2.5" opacity="0" pointer-events="none" data-overlay="heart" transform="translate(417 618)" /></g></g>
+          
+        <path id="mint-1-eye-left-closed" fill="none" stroke="#080c09" stroke-width="7" stroke-linecap="round" opacity="0" /></g>
+        <g id="mint-1-eye-right" ns1:label="눈 · right" data-source-id="eye-right">
+          <path id="mint-1-eye-right-lashes" d="M765 593.6764 C747 591.9971 731 587.6966 717 577.8334 L717 552.6432 C705 558.9459 700 557.9668 686 555.1618 C659 550.8468 633 552.955 618 565.1994 L632 562.2185 C617 569.4367 608 580.7377 602 593.625 C618 581.9929 628 579.9679 640 579.6569 C674 575.1915 706 601.7994 729 642.9606 C745 636.7199 755 615.5079 765 593.6764 Z" fill="#080b09" stroke="none" stroke-width="6" data-source-id="eye-right-lashes" />
+          <path id="mint-1-eye-right-white" d="M729 627.6989 C739 606.58 723 586.4209 698 577.3667 C670 567.1528 636 575.7267 618 593.5122 C600 611.5 600 639.657 619 652.0768 C638 665.2236 674 664.0925 699 657.1428 C717 650.7616 724 642.0066 729 627.6989 Z" fill="url(#mint-1-white-cloth)" stroke="none" data-source-id="eye-right-white" />
+          <g id="mint-1-eye-right-opening" clip-path="url(#mint-1-aperture-right)"><g id="mint-1-eye-right-gaze"><g id="mint-1-eye-right-iris" clip-path="url(#mint-1-eye-right-clip)" stroke="none" ns1:label="눈동자 · right" data-source-id="eye-right-iris">
+            <path id="mint-1-eye-right-iris-base" d="M651 564 C682 564 701 590 701 621 C701 654 683 675 653 675 C623 677 601 653 602 621 C602 590 621 565 651 564 Z" fill="url(#mint-1-iris-teal)" data-source-id="eye-right-iris-base" />
+            <path id="mint-1-eye-right-iris-bottom" d="M630 620 C618 627 611 640 611 652 C619 670 632 676 653 676 C673 676 688 666 694 651 C690 636 681 627 671 621 C658 634 643 634 630 620 Z" fill="#4ca99e" data-source-id="eye-right-iris-bottom" />
+            <ellipse id="mint-1-eye-right-iris-glow" cx="653" cy="657" rx="27" ry="24" fill="#66bfb1" data-source-id="eye-right-iris-glow" />
+            <ellipse id="mint-1-eye-right-pupil" cx="647" cy="616" rx="21" ry="26" fill="#204d46" data-source-id="eye-right-pupil" />
+            <circle id="mint-1-eye-right-highlight" cx="637.5" cy="589.5" r="12" fill="#fcffff" data-source-id="eye-right-highlight" />
+            <circle id="mint-1-eye-right-highlight-small" cx="650.2" cy="603" r="2" fill="#dcebe3" data-source-id="eye-right-highlight-small" />
+          </g><path id="mint-1-eye-right-iris-outline" d="M651 564 C682 564 701 590 701 621 C701 654 683 675 653 675 C623 677 601 653 602 621 C602 590 621 565 651 564 Z" fill="none" stroke="#090d09" stroke-width="4" data-source-id="eye-right-iris-outline" /><path id="mint-1-eye-right-heart-overlay" d="M0 23 C-7 16 -24 5 -24 -8 C-24 -22 -7 -27 0 -14 C7 -27 24 -22 24 -8 C24 5 7 16 0 23 Z" fill="#ec6f94" stroke="#8e3957" stroke-width="2.5" opacity="0" pointer-events="none" data-overlay="heart" transform="translate(652 618)" /></g></g>
+          
+        <path id="mint-1-eye-right-closed" fill="none" stroke="#080c09" stroke-width="7" stroke-linecap="round" opacity="0" /></g>
+      </g>
+      <g id="mint-1-hair-fringe" ns1:label="중앙 앞머리" data-source-id="hair-fringe">
+        <path id="mint-1-hair-fringe-center" d="M488.001 263.9992 C461.0059 301.9917 444.0078 353.9655 442.0101 395.9296 C438.9933 449.8623 445.013 505.7731 480.2603 542.7226 C493.3986 557.7039 511.579 570.6936 530.7851 577.6962 C508.5288 555.721 496.3206 522.7715 492.2448 486.8287 C509.4802 539.7506 549.0135 582.7074 590.3393 578.752 C597.418 578.7609 603.4692 577.7693 611.5021 574.7809 C583.038 545.7954 574.6771 495.8568 571.4478 451.9044 C574.6017 483.8706 578.7934 511.8401 587.986 534.8139 C615.9172 498.8779 629.6583 453.925 623.3372 398.9602 C619.1218 341.9855 605.0249 290.9972 583.003 263.9994 C554.001 240.9998 516.0007 242.9997 488.001 263.9992 Z" fill="url(#mint-1-hair-cream)" stroke="none" data-source-id="hair-fringe-center" />
+        <path id="mint-1-hair-mint-streak" d="M502.0538 347.974 C502.1271 407.9282 529.3654 477.8566 572.7672 514.8319 C539.5115 501.8284 514.2752 463.8694 502.139 423.9126 C493.0936 392.9407 492.0524 366.9609 502.0538 347.974 Z" fill="#a1e5c6" stroke="none" data-source-id="hair-mint-streak" />
+        <path id="mint-1-hair-fringe-left-outline" d="M488.001 263.9992 C452.0061 303.9911 435.994 361.9588 438.9828 424.8966 C439.9825 504.7721 461.1478 556.6821 530.7958 579.6922 L531.7833 575.7011 C465.1671 552.6924 443.0067 500.7814 443.9953 424.8977 C439.9985 362.9585 457.0062 303.9911 488.001 263.9992 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-fringe-left-outline" />
+        <path id="mint-1-hair-fringe-inner-left" d="M488.1415 438.8917 C484.2011 490.8173 495.4012 547.7257 528.7673 577.6945 L532.8082 578.6959 C508.5212 550.731 491.2504 494.815 488.1415 438.8917 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-fringe-inner-left" />
+        <path id="mint-1-hair-fringe-bottom-outline" d="M488.1415 438.8917 C497.3198 519.7772 532.7815 573.7059 579.2601 580.7385 C591.3925 583.7449 604.5265 581.7653 613.5443 576.7804 L611.4774 572.7833 C598.4208 577.7638 580.2424 577.7443 564.0482 571.7392 C522.6443 557.728 499.3211 510.7934 488.1415 438.8917 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-fringe-bottom-outline" />
+        <path id="mint-1-hair-fringe-inner-right" d="M570.4104 444.9106 C570.6166 488.8631 582.0469 547.7919 609.5093 576.7765 L615.5741 577.7812 C587.0631 545.798 577.677 493.8604 570.4104 444.9106 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-fringe-inner-right" />
+        <path id="mint-1-hair-fringe-right-outline" d="M583.003 263.9994 C606.0342 298.9956 619.1487 349.9828 621.3399 399.9594 C627.6256 449.9272 615.8921 494.8825 586.9798 534.8132 L590.0364 539.8083 C619.9546 500.8784 631.6562 452.9262 626.3408 398.9606 C622.123 341.9856 605.0236 289.9974 583.003 263.9994 Z" fill="url(#mint-1-hair-line)" stroke="none" data-source-id="hair-fringe-right-outline" />
+      </g>
+      <path id="mint-1-hood-opening-border" d="M158 601 C197 507 268 393 357 311 C419 257 484 238 544 240 C620 239 691 280 742 337" fill="none" stroke="#080d09" stroke-width="7.5" data-source-id="hood-opening-border" />
+    </g></g>
+    <g id="mint-1-tear-effects" opacity="0" data-overlay="tears" pointer-events="none" transform="translate(0 0) rotate(0.1061 534 1146) translate(0 -4.3646) translate(0 0.2315) rotate(0.164 534 772)"><g><path fill="#b5e9ef" stroke="#649bac" stroke-width="1.8" d="M346 643.48 C343 658.48 347 669.48 345 684.5077 C348 692.5077 356 692.5077 357 684.5077 C354 666.48 357 657.48 356 643.48 Z" /><path fill="none" stroke="#f5ffff" stroke-width="2.5" stroke-linecap="round" d="M349 648.48 L349 681.5077" /><path d="M0 -9 C-2 -4 -7 1 -7 6 C-7 15 7 15 7 6 C7 1 2 -4 0 -9 Z" fill="#b5e9ef" stroke="#649bac" stroke-width="1.5" transform="translate(351 718.0077) scale(.65)" opacity="0.5" /></g><g><path fill="#b5e9ef" stroke="#649bac" stroke-width="1.8" d="M713 643.48 C710 658.48 714 669.48 712 679.1781 C715 687.1781 723 687.1781 724 679.1781 C721 666.48 724 657.48 723 643.48 Z" /><path fill="none" stroke="#f5ffff" stroke-width="2.5" stroke-linecap="round" d="M716 648.48 L716 676.1781" /><path d="M0 -9 C-2 -4 -7 1 -7 6 C-7 15 7 15 7 6 C7 1 2 -4 0 -9 Z" fill="#b5e9ef" stroke="#649bac" stroke-width="1.5" transform="translate(718 694.6581) scale(.65)" opacity="0.4063" /></g></g><g id="mint-1-head-accessories-pose" data-rig-slot="head-accessories-pose" transform="translate(0 0) rotate(0.1061 534 1146) translate(0 -4.3646) translate(0 0.2315) rotate(0.164 534 772)"><g id="mint-1-head-accessories" ns1:label="머리 장식" data-source-id="head-accessories">
+      <g id="mint-1-hair-cross-clip" transform="translate(293.3147 481.7571) scale(1.8)" ns1:label="hair-cross-clip" data-source-id="hair-cross-clip">
+        <path id="mint-1-hair-cross-clip-shape" d="M0 -18 C9 -28 18 -27 23 -19 C28 -11 21 -5 15 0 C27 9 28 18 21 24 C13 30 6 23 0 18 C-8 27 -17 29 -24 22 C-30 14 -23 5 -17 0 C-27 -7 -28 -17 -20 -23 C-12 -30 -5 -23 0 -18 Z" fill="url(#mint-1-mint)" stroke="#080d09" stroke-width="4.5" data-source-id="hair-cross-clip-shape" />
+      </g>
+      <g id="mint-1-accessory-cat-pin" stroke-width="7" ns1:label="고양이 핀" data-source-id="accessory-cat-pin">
+        <path id="mint-1-cat-pin-base" d="M739 344 C747 319 758 301 768 307 C777 312 781 325 785 332 C796 328 806 332 816 336 C828 320 840 314 846 321 C854 329 853 348 850 361 C864 379 868 401 859 420 C848 444 821 454 790 449 C754 447 726 432 720 408 C710 382 721 361 739 344 Z" fill="url(#mint-1-white-cloth)" data-source-id="cat-pin-base" />
+        <path id="mint-1-cat-pin-ear-left" d="M754 340 C757 330 765 325 771 331 C765 333 759 336 754 340 Z" fill="#8e928c" stroke="none" data-source-id="cat-pin-ear-left" />
+        <path id="mint-1-cat-pin-ear-right" d="M825 342 C832 334 838 336 840 352 C835 348 830 344 825 342 Z" fill="#8e928c" stroke="none" data-source-id="cat-pin-ear-right" />
+        <circle id="mint-1-cat-pin-eye-left" cx="764" cy="383" r="8.5" fill="#060908" stroke="none" data-source-id="cat-pin-eye-left" />
+        <circle id="mint-1-cat-pin-eye-right" cx="820" cy="392" r="8.5" fill="#060908" stroke="none" data-source-id="cat-pin-eye-right" />
+        <path id="mint-1-cat-pin-mouth" d="M778 397 C780 406 786 406 790 400 C795 408 800 407 802 401" fill="none" stroke="#080b09" stroke-width="5" data-source-id="cat-pin-mouth" />
+        <circle id="mint-1-cat-pin-blush-left" cx="746" cy="396" r="9" fill="#ffc1c6" stroke="none" data-source-id="cat-pin-blush-left" />
+        <circle id="mint-1-cat-pin-blush-right" cx="831" cy="411" r="9" fill="#ffbcc5" stroke="none" data-source-id="cat-pin-blush-right" />
+      </g>
+    </g></g>
+    <g id="mint-1-bag-breath" data-rig-slot="bag-breath" transform="translate(0 0) rotate(0.1061 534 1146) translate(0 -2.1691) rotate(0.6224 534 810)"><g id="mint-1-accessory-dino-bag" ns1:label="공룡 크로스백" data-source-id="accessory-dino-bag">
+      <g id="mint-1-bag-strap" ns1:label="가방 끈" data-source-id="bag-strap">
+        <path id="mint-1-bag-strap-base" d="M404 814 C447 881 501 941 568 981 L559 1007 C483 964 427 898 404 832 Z" fill="url(#mint-1-strap-gray)" stroke-width="7" data-source-id="bag-strap-base" />
+        <path id="mint-1-bag-strap-edge" d="M410 835 C451 898 503 949 557 986" fill="none" stroke="#50484c" stroke-width="4" data-source-id="bag-strap-edge" />
+      </g>
+      <g id="mint-1-bag-spikes" stroke-width="6" ns1:label="가방 가시" data-source-id="bag-spikes">
+        <path id="mint-1-bag-spike-top" d="M603 900 C611 882 621 865 633 869 C644 872 650 887 656 905 Z" fill="url(#mint-1-spike-yellow)" data-source-id="bag-spike-top" />
+        <path id="mint-1-bag-spike-2" d="M647 897 C662 879 675 885 681 896 C687 906 684 920 680 926 Z" fill="url(#mint-1-spike-yellow)" data-source-id="bag-spike-2" />
+        <path id="mint-1-bag-spike-3" d="M684 928 C701 921 714 925 716 937 C718 947 710 956 705 962 Z" fill="url(#mint-1-spike-yellow)" data-source-id="bag-spike-3" />
+        <path id="mint-1-bag-spike-4" d="M708 960 C726 958 735 966 734 977 C731 987 725 993 719 998 Z" fill="url(#mint-1-spike-yellow)" data-source-id="bag-spike-4" />
+        <path id="mint-1-bag-spike-5" d="M722 996 C740 994 749 1003 747 1015 C746 1026 738 1032 730 1037 Z" fill="url(#mint-1-spike-yellow)" data-source-id="bag-spike-5" />
+        <path id="mint-1-bag-spike-6" d="M733 1038 C749 1036 759 1047 757 1058 C755 1065 750 1071 743 1073 Z" fill="url(#mint-1-spike-yellow)" data-source-id="bag-spike-6" />
+      </g>
+      <g id="mint-1-bag-feet" stroke-width="6" ns1:label="가방 발" data-source-id="bag-feet">
+        <path id="mint-1-bag-foot-left" d="M588 1096 L628 1106 C631 1122 620 1137 606 1131 C594 1130 587 1119 588 1096 Z" fill="url(#mint-1-mint)" data-source-id="bag-foot-left" />
+        <path id="mint-1-bag-foot-middle" d="M641 1109 L681 1111 C682 1129 673 1143 659 1140 C648 1138 642 1127 641 1109 Z" fill="url(#mint-1-mint)" data-source-id="bag-foot-middle" />
+        <path id="mint-1-bag-foot-right" d="M680 1103 L717 1099 C720 1118 713 1132 699 1132 C686 1131 682 1118 680 1103 Z" fill="url(#mint-1-mint)" data-source-id="bag-foot-right" />
+      </g>
+      <g id="mint-1-bag-body" ns1:label="가방 몸체" data-source-id="bag-body">
+        <path id="mint-1-bag-body-base" d="M559 1003 C539 1002 529 1009 531 1024 C534 1037 545 1042 557 1042 C556 1078 574 1103 607 1114 C646 1128 707 1120 733 1107 C749 1099 760 1088 767 1076 C762 1068 749 1074 739 1064 C736 1016 720 957 690 926 C667 902 642 894 617 898 C580 900 553 919 547 946 C536 970 546 991 559 1003 Z" fill="url(#mint-1-mint)" stroke-width="7" data-source-id="bag-body-base" />
+        <ellipse id="mint-1-bag-belly" cx="618" cy="1059" rx="32" ry="43" fill="#fcf9d7" stroke="none" transform="rotate(-35 618 1059)" data-source-id="bag-belly" />
+        <path id="mint-1-bag-smile-seam" d="M552 993 C583 1011 635 1014 665 994" fill="none" stroke="#080d09" stroke-width="6" data-source-id="bag-smile-seam" />
+        <path id="mint-1-bag-arm-mark" d="M673 1015 C663 1034 674 1044 686 1042 C702 1042 710 1027 695 1011" fill="none" stroke="#0a130d" stroke-width="6" data-source-id="bag-arm-mark" />
+      </g>
+      <g id="mint-1-bag-face" stroke="none" ns1:label="가방 얼굴" data-source-id="bag-face">
+        <circle id="mint-1-bag-eye-left" cx="584" cy="953" r="8" fill="#060d08" data-source-id="bag-eye-left" />
+        <circle id="mint-1-bag-eye-right" cx="640" cy="957" r="8" fill="#060d08" data-source-id="bag-eye-right" />
+        <path id="mint-1-bag-mouth" d="M600 967 C603 973 608 972 611 968 C614 973 619 974 621 969" fill="none" stroke="#09140c" stroke-width="4.5" data-source-id="bag-mouth" />
+        <circle id="mint-1-bag-cheek-left" cx="567" cy="968" r="8.5" fill="#ffc5bd" data-source-id="bag-cheek-left" />
+        <circle id="mint-1-bag-cheek-right" cx="654" cy="974" r="9" fill="#ffc5bd" data-source-id="bag-cheek-right" />
+      </g>
+    </g></g>
+  <g id="mint-1-mesh-debug" pointer-events="none" display="none" fill="none" stroke-width="1.2"><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g><g><path stroke="#14a9ad" stroke-opacity="0.7" /><path stroke="#ed5477" stroke-width="4" stroke-linecap="round" /></g></g></g>
+</svg>

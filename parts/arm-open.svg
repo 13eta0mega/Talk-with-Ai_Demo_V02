@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 1150" width="560" height="1150"><g id="arm-open" data-part-kind="arm" data-pose-reference="whole-body-pose-reference.png">
+    <path id="open-hand" d="M 145 690 C 137 670 121 656 109 666 C 99 674 111 692 105 702 C 73 706 47 728 49 746 C 51 764 83 776 105 784 C 125 762 143 724 145 690 Z" fill="#ffe9d9" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="open-sleeve" d="M403 825 C356 833 268 742 173 692 C161 746 137 792 101 816 C113 872 227 940 359 952 C378 923 391 868 403 825 Z" fill="#fcfcfc" stroke="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="open-sleeve-contour" d="M403 825 C356 833 268 742 173 692 C161 746 137 792 101 816 C113 872 227 940 359 952" fill="none" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="open-fold" d="M371 853 C383 883 369 919 359 941" fill="none" stroke="#a1d9c0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="open-paw" transform="translate(233 806) scale(0.82)">
+      <path id="open-paw-shape" d="M-6 -24 C-6 -40 8 -43 15 -33 C20 -26 17 -23 18 -21 C29 -27 38 -20 36 -11 C34 -3 25 0 20 -1 C28 12 17 30 2 31 C-18 33 -31 20 -31 3 C-31 -14 -20 -28 -6 -24 Z" fill="#a7e7cb" stroke="#4a9b74" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <path id="open-cuff" d="M 145 682 C 161 678 173 682 181 694 C 175 748 149 792 113 820 C 95 818 81 804 87 792 C 119 758 137 718 145 682 Z" fill="#a7e7cb" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  </svg>
