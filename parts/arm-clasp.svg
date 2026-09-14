@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 1150" width="560" height="1150"><g id="arm-clasp" data-part-kind="arm" data-pose-reference="whole-body-pose-reference.png">
+    <path id="clasp-hand" d="M 499 860 C 495 844 505 828 519 836 C 535 830 545 846 539 864 C 549 880 535 900 525 908 L 505 888 Z" fill="#ffe9d9" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="clasp-sleeve" d="M390 812 C363 831 315 895 323 952 C329 1004 387 1024 439 992 C471 976 509 950 519 926 L459 856 C442 835 417 793 390 812 Z" fill="#fcfcfc" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <path id="clasp-fold" d="M 419 854 C 395 862 387 876 383 892" fill="none" stroke="#a1d9c0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="clasp-paw" transform="translate(399 932) scale(0.82)">
+      <path id="clasp-paw-shape" d="M-6 -24 C-6 -40 8 -43 15 -33 C20 -26 17 -23 18 -21 C29 -27 38 -20 36 -11 C34 -3 25 0 20 -1 C28 12 17 30 2 31 C-18 33 -31 20 -31 3 C-31 -14 -20 -28 -6 -24 Z" fill="#a7e7cb" stroke="#4a9b74" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <path id="clasp-cuff" d="M 459 856 C 457 892 473 928 501 948 C 525 938 537 916 535 900 C 509 886 499 866 503 848 C 485 840 469 842 459 856 Z" fill="#a7e7cb" stroke="#090c09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  </svg>
