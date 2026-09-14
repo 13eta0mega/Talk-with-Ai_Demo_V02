@@ -1,6 +1,0 @@
-{
-  "route": "supplied top-left glove → generated isolated pose reference → four semantic cubic paths",
-  "generatedReference": "pet-natural-generated.png",
-  "vector": "../interaction-hands.svg",
-  "identity": "external glove only; character master untouched"
-}
